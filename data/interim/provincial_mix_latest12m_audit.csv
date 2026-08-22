@@ -1,0 +1,11 @@
+province,generation_twh,low_carbon_share,fossil_share,hydro_share,nuclear_share,wind_solar_share,coal_share,gas_share
+Alberta,85.61,27.03,72.97,2.49,0.0,22.60,2.10,70.86
+British Columbia,69.08,97.37,2.63,89.72,0.0,2.63,0.0,2.56
+Manitoba,24.83,99.90,0.10,96.15,0.0,3.55,0.0,0.08
+New Brunswick,12.87,53.12,46.88,18.18,19.82,9.04,21.61,19.88
+Newfoundland and Labrador,36.67,96.71,3.29,96.20,0.0,0.50,0.0,0.70
+Nova Scotia,9.24,27.76,72.24,5.71,0.0,18.29,42.68,27.94
+Ontario,171.50,77.94,22.06,22.45,44.96,9.65,0.0,22.02
+Prince Edward Island,0.66,99.67,0.33,0.0,0.0,99.01,0.0,0.0
+Quebec,189.28,99.68,0.32,92.70,0.0,6.25,0.0,0.05
+Saskatchewan,25.73,22.56,77.44,11.81,0.0,10.57,27.43,50.01
