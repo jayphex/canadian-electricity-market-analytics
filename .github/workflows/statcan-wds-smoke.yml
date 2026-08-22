@@ -1,0 +1,26 @@
+name: StatsCan WDS smoke test
+
+on:
+  pull_request:
+    paths:
+      - "src/fetch_statcan_wds.py"
+      - ".github/workflows/statcan-wds-smoke.yml"
+  workflow_dispatch:
+
+jobs:
+  metadata-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Test StatsCan WDS metadata and coordinates
+        run: python src/fetch_statcan_wds.py --metadata-only --output-dir /tmp/statcan_wds
