@@ -1,6 +1,12 @@
 name: StatsCan WDS smoke test
 
 on:
+  push:
+    branches:
+      - data/statcan-baseline
+    paths:
+      - "src/fetch_statcan_wds.py"
+      - ".github/workflows/statcan-wds-smoke.yml"
   pull_request:
     paths:
       - "src/fetch_statcan_wds.py"
