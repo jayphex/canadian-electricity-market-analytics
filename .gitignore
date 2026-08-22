@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated outputs
+*.log
+
+# Raw data can be large. Keep folder structure, but do not commit source files by default.
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets may be regenerated.
+data/processed/*
+!data/processed/.gitkeep
