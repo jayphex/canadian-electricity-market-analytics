@@ -1,0 +1,25 @@
+name: Provincial history ingestion
+
+on:
+  pull_request:
+    paths:
+      - "src/fetch_statcan_wds.py"
+      - ".github/workflows/provincial-history.yml"
+
+jobs:
+  fetch-panel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas requests
+      - name: Fetch StatsCan 2016-2025 provincial generation panel
+        run: python src/fetch_statcan_wds.py --start-year 2016 --end-year 2025 --output-dir data/raw/statcan_wds
+      - name: Upload audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: statcan-provincial-history
+          path: data/raw/statcan_wds/
