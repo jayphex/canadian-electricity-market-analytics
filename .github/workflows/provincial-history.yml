@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "src/fetch_statcan_wds.py"
+      - "src/analyze_provincial_history.py"
       - ".github/workflows/provincial-history.yml"
 
 jobs:
@@ -18,8 +19,12 @@ jobs:
         run: pip install pandas requests
       - name: Fetch StatsCan 2016-2025 provincial generation panel
         run: python src/fetch_statcan_wds.py --start-year 2016 --end-year 2025 --output-dir data/raw/statcan_wds
-      - name: Upload audit artifact
+      - name: Validate and build descriptive outputs
+        run: python src/analyze_provincial_history.py data/raw/statcan_wds/statcan_25100015_wds_raw.csv --output-dir data/processed/provincial_history
+      - name: Upload raw and validated audit artifact
         uses: actions/upload-artifact@v4
         with:
           name: statcan-provincial-history
-          path: data/raw/statcan_wds/
+          path: |
+            data/raw/statcan_wds/
+            data/processed/provincial_history/
