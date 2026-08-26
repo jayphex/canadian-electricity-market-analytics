@@ -42,6 +42,7 @@ GENERATION_TYPES = [
     "Nuclear steam turbine",
     "Wind power turbine",
     "Solar",
+    "Total electricity production from combustible fuels",
     "Total electricity production from biomass",
     "Total electricity production from non-renewable combustible fuels",
 ]
@@ -51,6 +52,7 @@ TECH_LABELS = {
     "Nuclear steam turbine": "Nuclear",
     "Wind power turbine": "Wind",
     "Solar": "Solar",
+    "Total electricity production from combustible fuels": "Combustible fuels",
     "Total electricity production from biomass": "Biomass",
     "Total electricity production from non-renewable combustible fuels": "Non-renewable combustibles",
 }
@@ -141,7 +143,6 @@ def resolve_vectors(
     by_coordinate = {item["coordinate"]: item for item in coordinate_requests}
     resolved: list[dict[str, Any]] = []
 
-    # Batch to keep WDS request bodies small.
     for batch in chunks(coordinate_requests, 50):
         payload = [
             {"productId": PRODUCT_ID, "coordinate": item["coordinate"]}
@@ -153,7 +154,6 @@ def resolve_vectors(
             coordinate = str(obj.get("coordinate", ""))
             source = by_coordinate.get(coordinate)
             if response.get("status") != "SUCCESS" or obj.get("responseStatusCode") != 0:
-                # Not all geography x generation-type combinations exist in this table.
                 continue
             if source is None:
                 continue
