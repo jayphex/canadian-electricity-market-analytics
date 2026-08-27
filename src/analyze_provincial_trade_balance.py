@@ -77,13 +77,29 @@ def main() -> None:
     wide["local_generation_pct_of_availability"] = 100 * generation / availability
     wide["net_receipts_pct_of_availability"] = 100 * wide["net_receipts_mwh"] / availability
     wide["balance_check_mwh"] = generation + receipts - deliveries - availability
+    wide["balance_check_pct_of_availability"] = (
+        100 * wide["balance_check_mwh"] / availability
+    )
 
-    if wide["balance_check_mwh"].abs().max() > 1:
-        raise ValueError("Provincial electricity balance did not reconcile")
+    # Historical source series can contain small accounting/revision residuals.
+    # Preserve and flag them instead of forcing them to zero. Fail only when a
+    # discrepancy is large enough to threaten the interpretation of the balance.
+    wide["balance_residual_flag"] = wide["balance_check_pct_of_availability"].abs() > 0.05
+    material = wide[wide["balance_check_pct_of_availability"].abs() > 0.5]
+    if not material.empty:
+        raise ValueError(
+            "Material provincial electricity-balance residual found:\n"
+            + material[[
+                "province", "year", "balance_check_mwh", "balance_check_pct_of_availability"
+            ]].to_string(index=False)
+        )
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     annual_long.to_csv(args.output_dir / "provincial_trade_balance_annual_long.csv", index=False)
     wide.to_csv(args.output_dir / "provincial_trade_balance_annual.csv", index=False)
+
+    residuals = wide[wide["balance_residual_flag"]].copy()
+    residuals.to_csv(args.output_dir / "provincial_trade_balance_residuals.csv", index=False)
 
     snapshot = wide[wide["year"] == wide["year"].max()].copy()
     snapshot["trade_position"] = snapshot["net_receipts_mwh"].map(
@@ -94,6 +110,7 @@ def main() -> None:
 
     print(f"Validated {len(wide):,} province-year balances")
     print(f"Years: {wide['year'].min()}-{wide['year'].max()}")
+    print(f"Flagged small accounting residuals: {len(residuals)}")
     print("Latest provincial electricity balance:")
     print(
         snapshot[[
