@@ -1,0 +1,35 @@
+name: StatsCan trade ingestion
+
+on:
+  pull_request:
+    paths:
+      - "src/fetch_statcan_25100016_wds.py"
+      - "src/analyze_pei_import_dependence.py"
+      - "src/analyze_provincial_trade_balance.py"
+      - ".github/workflows/statcan-trade-ingestion.yml"
+  workflow_dispatch:
+
+jobs:
+  fetch-and-analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas requests
+      - name: Fetch StatsCan 2016-2025 receipts and deliveries panel
+        run: python src/fetch_statcan_25100016_wds.py --start-year 2016 --end-year 2025 --output-dir data/raw/statcan_25100016_wds
+      - name: Build all-province electricity balance
+        run: python src/analyze_provincial_trade_balance.py data/raw/statcan_25100016_wds/statcan_25100016_wds_raw.csv --output-dir data/processed/provincial_trade_balance
+      - name: Build PEI electricity-balance summary
+        run: python src/analyze_pei_import_dependence.py data/raw/statcan_25100016_wds/statcan_25100016_wds_raw.csv --output-dir data/processed/pei_balance
+      - name: Upload trade and balance artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: statcan-trade-and-provincial-balance
+          path: |
+            data/raw/statcan_25100016_wds/
+            data/processed/provincial_trade_balance/
+            data/processed/pei_balance/
