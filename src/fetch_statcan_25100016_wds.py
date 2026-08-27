@@ -90,8 +90,8 @@ def member_id(dimension: dict[str, Any], name: str) -> int:
 def make_coordinate(metadata: dict[str, Any], geography: str, component: str) -> str:
     geo_dim = dimension_by_name(metadata, "Geography")
     component_dim = dimension_by_name(metadata, "Electric power, components")
-    n_positions = max(int(d["dimensionPositionId"]) for d in dimensions(metadata))
-    coordinate = [0] * n_positions
+    # StatsCan WDS coordinates use a fixed 10-position format; unused dimensions are zero.
+    coordinate = [0] * 10
     coordinate[int(geo_dim["dimensionPositionId"]) - 1] = member_id(geo_dim, geography)
     coordinate[int(component_dim["dimensionPositionId"]) - 1] = member_id(component_dim, component)
     return ".".join(str(x) for x in coordinate)
@@ -194,6 +194,8 @@ def main() -> None:
     with requests.Session() as session:
         metadata = get_metadata(session)
         resolved = resolve_vectors(session, metadata)
+        if not resolved:
+            raise RuntimeError("No requested coordinates resolved to StatsCan vectors")
         pd.DataFrame(resolved).to_csv(args.output_dir / "resolved_vectors.csv", index=False)
 
         df = fetch_data(session, resolved)
