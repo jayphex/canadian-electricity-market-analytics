@@ -17,12 +17,15 @@ REQUIRED_COMPONENTS = {
     "Total generation",
     "Total receipts",
     "Receipts from other provinces",
-    "Purchased receipts from the United States",
-    "Other receipts from the United States",
     "Total deliveries",
     "Deliveries to other provinces",
-    "Deliveries to the United States",
     "Total electricity available for use within specific geographic border",
+}
+
+OPTIONAL_US_COMPONENTS = {
+    "Purchased receipts from the United States",
+    "Other receipts from the United States",
+    "Deliveries to the United States",
 }
 
 
@@ -40,9 +43,10 @@ def main() -> None:
     if pei.empty:
         raise ValueError("No Prince Edward Island observations found")
 
-    missing_components = REQUIRED_COMPONENTS - set(pei["component"].dropna())
+    available_components = set(pei["component"].dropna())
+    missing_components = REQUIRED_COMPONENTS - available_components
     if missing_components:
-        raise ValueError(f"Missing PEI components: {sorted(missing_components)}")
+        raise ValueError(f"Missing required PEI components: {sorted(missing_components)}")
 
     if pei.duplicated(["ref_date", "component"]).any():
         raise ValueError("Duplicate PEI component-month rows found")
@@ -79,15 +83,22 @@ def main() -> None:
     wide = annual.pivot(index="year", columns="component", values="mwh").reset_index()
     wide.columns.name = None
 
-    receipts_us = (
-        wide["Purchased receipts from the United States"].fillna(0)
-        + wide["Other receipts from the United States"].fillna(0)
-    )
-    wide["receipts_from_us"] = receipts_us
+    # PEI has no StatsCan vectors for U.S. receipts/deliveries in this table.
+    # Keep optional U.S. metrics as NA rather than silently inventing zero series.
+    if OPTIONAL_US_COMPONENTS.issubset(available_components):
+        receipts_us = (
+            wide["Purchased receipts from the United States"].fillna(0)
+            + wide["Other receipts from the United States"].fillna(0)
+        )
+        wide["receipts_from_us"] = receipts_us
+        wide["net_us_receipts"] = receipts_us - wide["Deliveries to the United States"].fillna(0)
+    else:
+        wide["receipts_from_us"] = pd.NA
+        wide["net_us_receipts"] = pd.NA
+
     wide["net_interprovincial_receipts"] = (
         wide["Receipts from other provinces"] - wide["Deliveries to other provinces"]
     )
-    wide["net_us_receipts"] = receipts_us - wide["Deliveries to the United States"].fillna(0)
 
     availability = wide["Total electricity available for use within specific geographic border"]
     generation = wide["Total generation"]
