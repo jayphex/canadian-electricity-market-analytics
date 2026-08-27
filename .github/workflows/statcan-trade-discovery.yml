@@ -1,0 +1,26 @@
+name: StatsCan trade table discovery
+
+on:
+  pull_request:
+    paths:
+      - "src/discover_statcan_25100016.py"
+      - ".github/workflows/statcan-trade-discovery.yml"
+  workflow_dispatch:
+
+jobs:
+  discover-table:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas requests
+      - name: Discover StatsCan 25-10-0016-01 metadata
+        run: python src/discover_statcan_25100016.py
+      - name: Upload discovery artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: statcan-trade-discovery
+          path: data/raw/statcan_25100016_discovery/
