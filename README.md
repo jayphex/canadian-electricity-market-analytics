@@ -27,6 +27,20 @@ Implemented analysis includes:
 
 The pipeline preserves source vector IDs, coordinates, status codes, units, and release metadata so results can be traced back to Statistics Canada.
 
+## Current Phase 2 visualizations
+
+### Generation change by source, 2016–2025
+
+![Change in Canadian electricity generation by source, 2016–2025](docs/figures/generation_change_2016_2025.svg)
+
+Hydro and nuclear generation are lower in 2025 than in 2016, while wind and solar show substantial growth. Combustible generation is modestly higher over the same endpoint comparison.
+
+### Annual hydro change versus other generation
+
+![Annual hydro change versus other generation sources](docs/figures/hydro_vs_other_sources_annual_change.svg)
+
+The year-over-year comparison tests whether changes in combustible generation, nuclear, and wind/solar collectively offset annual hydro movements. The relationship varies materially by year, so the national data should not be interpreted as a simple one-for-one substitution pattern.
+
 ## Working approach
 
 1. Source and assess authoritative Canadian electricity datasets.
