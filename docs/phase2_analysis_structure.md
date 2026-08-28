@@ -15,8 +15,14 @@ When generation from a major electricity source declines within a province, is t
 Outputs:
 - `data/processed/generation_change_2016_2025.csv`
 - `data/processed/generation_annual_changes_2017_2025.csv`
-- `docs/figures/generation_change_2016_2025.png`
-- `docs/figures/hydro_vs_other_sources_annual_change.png`
+- `docs/figures/generation_change_2016_2025.svg`
+- `docs/figures/hydro_vs_other_sources_annual_change.svg`
+
+#### Current national figures
+
+![Change in Canadian electricity generation by source, 2016–2025](figures/generation_change_2016_2025.svg)
+
+![Annual hydro change versus other generation sources](figures/hydro_vs_other_sources_annual_change.svg)
 
 ### 2. Provincial generation trajectories
 For each province:
