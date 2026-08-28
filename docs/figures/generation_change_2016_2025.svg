@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <rect width="900" height="500" fill="white"/>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111827; }
+    .title { font-size: 24px; font-weight: 700; }
+    .label { font-size: 17px; }
+    .tick { font-size: 14px; fill: #4b5563; }
+    .value { font-size: 15px; font-weight: 700; }
+    .grid { stroke: #d1d5db; stroke-width: 1; }
+    .zero { stroke: #111827; stroke-width: 1.5; }
+    .bar { fill: #4c78a8; }
+  </style>
+  <text x="450" y="38" text-anchor="middle" class="title">Change in Canadian electricity generation by source, 2016–2025</text>
+  <line x1="120" y1="420" x2="820" y2="420" class="grid"/>
+  <line x1="470" y1="80" x2="470" y2="420" class="zero"/>
+  <g class="tick" text-anchor="middle">
+    <text x="150" y="445">−40</text><text x="230" y="445">−30</text><text x="310" y="445">−20</text><text x="390" y="445">−10</text><text x="470" y="445">0</text><text x="550" y="445">10</text><text x="630" y="445">20</text>
+  </g>
+  <text x="470" y="478" text-anchor="middle" class="tick">Change in generation (million MWh)</text>
+  <g>
+    <text x="110" y="130" text-anchor="end" class="label">Hydro</text>
+    <rect x="166" y="102" width="304" height="42" class="bar"/>
+    <text x="156" y="129" text-anchor="end" class="value">−38.0</text>
+
+    <text x="110" y="210" text-anchor="end" class="label">Nuclear</text>
+    <rect x="357" y="182" width="113" height="42" class="bar"/>
+    <text x="347" y="209" text-anchor="end" class="value">−14.1</text>
+
+    <text x="110" y="290" text-anchor="end" class="label">Combustible fuels</text>
+    <rect x="470" y="262" width="54" height="42" class="bar"/>
+    <text x="534" y="289" class="value">+6.7</text>
+
+    <text x="110" y="370" text-anchor="end" class="label">Wind + solar</text>
+    <rect x="470" y="342" width="194" height="42" class="bar"/>
+    <text x="674" y="369" class="value">+24.2</text>
+  </g>
+</svg>
