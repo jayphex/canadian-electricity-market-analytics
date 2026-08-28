@@ -1,43 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540">
-  <rect width="980" height="540" fill="white"/>
-  <style>
-    text { font-family: Arial, Helvetica, sans-serif; fill: #111827; }
-    .title { font-size: 24px; font-weight: 700; }
-    .tick { font-size: 14px; fill: #4b5563; }
-    .legend { font-size: 15px; }
-    .grid { stroke: #d1d5db; stroke-width: 1; }
-    .zero { stroke: #111827; stroke-width: 1.5; }
-    .hydro { fill: none; stroke: #4c78a8; stroke-width: 3; }
-    .other { fill: none; stroke: #f58518; stroke-width: 3; }
-    .hydro-dot { fill: #4c78a8; }
-    .other-dot { fill: #f58518; }
-  </style>
-  <text x="490" y="38" text-anchor="middle" class="title">Annual hydro change versus other generation sources</text>
-
-  <line x1="90" y1="80" x2="90" y2="430" class="grid"/>
-  <line x1="90" y1="430" x2="900" y2="430" class="grid"/>
-  <line x1="90" y1="255" x2="900" y2="255" class="zero"/>
-  <line x1="90" y1="138" x2="900" y2="138" class="grid"/>
-  <line x1="90" y1="372" x2="900" y2="372" class="grid"/>
-
-  <g class="tick" text-anchor="end">
-    <text x="78" y="143">10</text><text x="78" y="260">0</text><text x="78" y="377">−10</text>
-  </g>
-  <text x="26" y="255" transform="rotate(-90 26 255)" text-anchor="middle" class="tick">Year-over-year change (million MWh)</text>
-
-  <g class="tick" text-anchor="middle">
-    <text x="100" y="455">2017</text><text x="200" y="455">2018</text><text x="300" y="455">2019</text><text x="400" y="455">2020</text><text x="500" y="455">2021</text><text x="600" y="455">2022</text><text x="700" y="455">2023</text><text x="800" y="455">2024</text><text x="900" y="455">2025</text>
-  </g>
-  <text x="495" y="490" text-anchor="middle" class="tick">Year</text>
-
-  <polyline points="100,129 200,333 300,352 400,343 500,346 600,308 700,338 800,354 900,236" class="hydro"/>
-  <polyline points="100,379 200,232 300,242 400,278 500,168 600,131 700,241 800,338 900,90" class="other"/>
-
-  <g>
-    <circle cx="100" cy="129" r="5" class="hydro-dot"/><circle cx="200" cy="333" r="5" class="hydro-dot"/><circle cx="300" cy="352" r="5" class="hydro-dot"/><circle cx="400" cy="343" r="5" class="hydro-dot"/><circle cx="500" cy="346" r="5" class="hydro-dot"/><circle cx="600" cy="308" r="5" class="hydro-dot"/><circle cx="700" cy="338" r="5" class="hydro-dot"/><circle cx="800" cy="354" r="5" class="hydro-dot"/><circle cx="900" cy="236" r="5" class="hydro-dot"/>
-    <circle cx="100" cy="379" r="5" class="other-dot"/><circle cx="200" cy="232" r="5" class="other-dot"/><circle cx="300" cy="242" r="5" class="other-dot"/><circle cx="400" cy="278" r="5" class="other-dot"/><circle cx="500" cy="168" r="5" class="other-dot"/><circle cx="600" cy="131" r="5" class="other-dot"/><circle cx="700" cy="241" r="5" class="other-dot"/><circle cx="800" cy="338" r="5" class="other-dot"/><circle cx="900" cy="90" r="5" class="other-dot"/>
-  </g>
-
-  <line x1="120" y1="515" x2="150" y2="515" class="hydro"/><circle cx="135" cy="515" r="5" class="hydro-dot"/><text x="160" y="520" class="legend">Hydro</text>
-  <line x1="270" y1="515" x2="300" y2="515" class="other"/><circle cx="285" cy="515" r="5" class="other-dot"/><text x="310" y="520" class="legend">Combustible + nuclear + wind/solar</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+<rect width="1100" height="660" fill="#F7F4EF"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#171717}.title{font-size:31px;font-weight:700}.sub{font-size:18px;fill:#66625D}.tick{font-size:15px;fill:#66625D}.label{font-size:18px;font-weight:700}.small{font-size:15px;font-weight:700}.foot{font-size:13px;fill:#66625D}.brand{font-size:12px;fill:#66625D;font-weight:700;letter-spacing:1px}.grid{stroke:#D9D4CC;stroke-width:1}.zero{stroke:#171717;stroke-width:1.2}
+</style>
+<text x="105" y="70" class="title">Hydro declines were not consistently offset by other generation</text>
+<text x="105" y="108" class="sub">Annual change in hydro versus combustible fuels, nuclear, wind and solar combined, 2017 to 2025</text>
+<line x1="145" y1="491.2" x2="835" y2="491.2" class="grid"/>
+<line x1="145" y1="372.2" x2="835" y2="372.2" class="grid"/>
+<line x1="145" y1="253.3" x2="835" y2="253.3" class="grid"/>
+<line x1="145" y1="372.2" x2="835" y2="372.2" class="zero"/>
+<text x="125" y="496.2" class="tick" text-anchor="end">−10</text>
+<text x="125" y="377.2" class="tick" text-anchor="end">0</text>
+<text x="125" y="258.3" class="tick" text-anchor="end">10</text>
+<text x="145.0" y="545" class="tick" text-anchor="middle">2017</text><text x="231.2" y="545" class="tick" text-anchor="middle">2018</text><text x="317.5" y="545" class="tick" text-anchor="middle">2019</text><text x="403.8" y="545" class="tick" text-anchor="middle">2020</text><text x="490.0" y="545" class="tick" text-anchor="middle">2021</text><text x="576.2" y="545" class="tick" text-anchor="middle">2022</text><text x="662.5" y="545" class="tick" text-anchor="middle">2023</text><text x="748.8" y="545" class="tick" text-anchor="middle">2024</text><text x="835.0" y="545" class="tick" text-anchor="middle">2025</text>
+<text x="36" y="345" class="tick" text-anchor="middle" transform="rotate(-90 36 345)">Year-over-year change (million MWh)</text>
+<polyline points="145.0,243.8 231.2,451.9 317.5,471.0 403.8,461.5 490.0,465.0 576.2,425.8 662.5,456.7 748.8,473.4 835.0,353.2" fill="none" stroke="#315D8C" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="145.0,498.3 231.2,348.4 317.5,359.2 403.8,396.0 490.0,283.0 576.2,246.1 662.5,358.0 748.8,456.7 835.0,204.5" fill="none" stroke="#B2861B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="145.0" cy="243.8" r="4.5" fill="#315D8C"/><circle cx="231.2" cy="451.9" r="4.5" fill="#315D8C"/><circle cx="317.5" cy="471.0" r="4.5" fill="#315D8C"/><circle cx="403.8" cy="461.5" r="4.5" fill="#315D8C"/><circle cx="490.0" cy="465.0" r="4.5" fill="#315D8C"/><circle cx="576.2" cy="425.8" r="4.5" fill="#315D8C"/><circle cx="662.5" cy="456.7" r="4.5" fill="#315D8C"/><circle cx="748.8" cy="473.4" r="4.5" fill="#315D8C"/><circle cx="835.0" cy="353.2" r="4.5" fill="#315D8C"/>
+<circle cx="145.0" cy="498.3" r="4.5" fill="#B2861B"/><circle cx="231.2" cy="348.4" r="4.5" fill="#B2861B"/><circle cx="317.5" cy="359.2" r="4.5" fill="#B2861B"/><circle cx="403.8" cy="396.0" r="4.5" fill="#B2861B"/><circle cx="490.0" cy="283.0" r="4.5" fill="#B2861B"/><circle cx="576.2" cy="246.1" r="4.5" fill="#B2861B"/><circle cx="662.5" cy="358.0" r="4.5" fill="#B2861B"/><circle cx="748.8" cy="456.7" r="4.5" fill="#B2861B"/><circle cx="835.0" cy="204.5" r="4.5" fill="#B2861B"/>
+<text x="865" y="350.2" class="label" style="fill:#315D8C">Hydro</text><text x="865" y="373.2" class="small" style="fill:#315D8C">+1.6 M MWh</text>
+<text x="865" y="201.5" class="label" style="fill:#B2861B">Other generation</text><text x="865" y="224.5" class="small" style="fill:#B2861B">+14.1 M MWh</text>
+<text x="105" y="630" class="foot">Source: Statistics Canada, table 25-10-0015</text>
+<text x="995" y="630" class="brand" text-anchor="end">CANADIAN ELECTRICITY MARKET ANALYTICS</text>
 </svg>
