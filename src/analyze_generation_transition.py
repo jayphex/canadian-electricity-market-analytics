@@ -74,8 +74,8 @@ def plot_cumulative_change(change_table: pd.DataFrame) -> Path:
     ax.set_ylabel("")
     fig.tight_layout()
 
-    output_path = OUTPUT_DIR / "generation_change_2016_2025.png"
-    fig.savefig(output_path, dpi=200, bbox_inches="tight")
+    output_path = OUTPUT_DIR / "generation_change_2016_2025.svg"
+    fig.savefig(output_path, bbox_inches="tight")
     plt.close(fig)
     return output_path
 
@@ -101,8 +101,8 @@ def plot_annual_substitution(annual_changes: pd.DataFrame) -> Path:
     ax.legend()
     fig.tight_layout()
 
-    output_path = OUTPUT_DIR / "hydro_vs_other_sources_annual_change.png"
-    fig.savefig(output_path, dpi=200, bbox_inches="tight")
+    output_path = OUTPUT_DIR / "hydro_vs_other_sources_annual_change.svg"
+    fig.savefig(output_path, bbox_inches="tight")
     plt.close(fig)
     return output_path
 
