@@ -1,0 +1,71 @@
+province,generation_type,technology,coordinate
+Newfoundland and Labrador,Hydraulic turbine,Hydro,2.1.2.0.0.0.0.0.0.0
+Newfoundland and Labrador,Nuclear steam turbine,Nuclear,2.1.4.0.0.0.0.0.0.0
+Newfoundland and Labrador,Wind power turbine,Wind,2.1.8.0.0.0.0.0.0.0
+Newfoundland and Labrador,Solar,Solar,2.1.9.0.0.0.0.0.0.0
+Newfoundland and Labrador,Total electricity production from combustible fuels,Combustible fuels,2.1.11.0.0.0.0.0.0.0
+Newfoundland and Labrador,Total electricity production from biomass,Biomass,2.1.13.0.0.0.0.0.0.0
+Newfoundland and Labrador,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,2.1.12.0.0.0.0.0.0.0
+Prince Edward Island,Hydraulic turbine,Hydro,3.1.2.0.0.0.0.0.0.0
+Prince Edward Island,Nuclear steam turbine,Nuclear,3.1.4.0.0.0.0.0.0.0
+Prince Edward Island,Wind power turbine,Wind,3.1.8.0.0.0.0.0.0.0
+Prince Edward Island,Solar,Solar,3.1.9.0.0.0.0.0.0.0
+Prince Edward Island,Total electricity production from combustible fuels,Combustible fuels,3.1.11.0.0.0.0.0.0.0
+Prince Edward Island,Total electricity production from biomass,Biomass,3.1.13.0.0.0.0.0.0.0
+Prince Edward Island,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,3.1.12.0.0.0.0.0.0.0
+Nova Scotia,Hydraulic turbine,Hydro,4.1.2.0.0.0.0.0.0.0
+Nova Scotia,Nuclear steam turbine,Nuclear,4.1.4.0.0.0.0.0.0.0
+Nova Scotia,Wind power turbine,Wind,4.1.8.0.0.0.0.0.0.0
+Nova Scotia,Solar,Solar,4.1.9.0.0.0.0.0.0.0
+Nova Scotia,Total electricity production from combustible fuels,Combustible fuels,4.1.11.0.0.0.0.0.0.0
+Nova Scotia,Total electricity production from biomass,Biomass,4.1.13.0.0.0.0.0.0.0
+Nova Scotia,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,4.1.12.0.0.0.0.0.0.0
+New Brunswick,Hydraulic turbine,Hydro,5.1.2.0.0.0.0.0.0.0
+New Brunswick,Nuclear steam turbine,Nuclear,5.1.4.0.0.0.0.0.0.0
+New Brunswick,Wind power turbine,Wind,5.1.8.0.0.0.0.0.0.0
+New Brunswick,Solar,Solar,5.1.9.0.0.0.0.0.0.0
+New Brunswick,Total electricity production from combustible fuels,Combustible fuels,5.1.11.0.0.0.0.0.0.0
+New Brunswick,Total electricity production from biomass,Biomass,5.1.13.0.0.0.0.0.0.0
+New Brunswick,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,5.1.12.0.0.0.0.0.0.0
+Quebec,Hydraulic turbine,Hydro,6.1.2.0.0.0.0.0.0.0
+Quebec,Nuclear steam turbine,Nuclear,6.1.4.0.0.0.0.0.0.0
+Quebec,Wind power turbine,Wind,6.1.8.0.0.0.0.0.0.0
+Quebec,Solar,Solar,6.1.9.0.0.0.0.0.0.0
+Quebec,Total electricity production from combustible fuels,Combustible fuels,6.1.11.0.0.0.0.0.0.0
+Quebec,Total electricity production from biomass,Biomass,6.1.13.0.0.0.0.0.0.0
+Quebec,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,6.1.12.0.0.0.0.0.0.0
+Ontario,Hydraulic turbine,Hydro,7.1.2.0.0.0.0.0.0.0
+Ontario,Nuclear steam turbine,Nuclear,7.1.4.0.0.0.0.0.0.0
+Ontario,Wind power turbine,Wind,7.1.8.0.0.0.0.0.0.0
+Ontario,Solar,Solar,7.1.9.0.0.0.0.0.0.0
+Ontario,Total electricity production from combustible fuels,Combustible fuels,7.1.11.0.0.0.0.0.0.0
+Ontario,Total electricity production from biomass,Biomass,7.1.13.0.0.0.0.0.0.0
+Ontario,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,7.1.12.0.0.0.0.0.0.0
+Manitoba,Hydraulic turbine,Hydro,8.1.2.0.0.0.0.0.0.0
+Manitoba,Nuclear steam turbine,Nuclear,8.1.4.0.0.0.0.0.0.0
+Manitoba,Wind power turbine,Wind,8.1.8.0.0.0.0.0.0.0
+Manitoba,Solar,Solar,8.1.9.0.0.0.0.0.0.0
+Manitoba,Total electricity production from combustible fuels,Combustible fuels,8.1.11.0.0.0.0.0.0.0
+Manitoba,Total electricity production from biomass,Biomass,8.1.13.0.0.0.0.0.0.0
+Manitoba,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,8.1.12.0.0.0.0.0.0.0
+Saskatchewan,Hydraulic turbine,Hydro,9.1.2.0.0.0.0.0.0.0
+Saskatchewan,Nuclear steam turbine,Nuclear,9.1.4.0.0.0.0.0.0.0
+Saskatchewan,Wind power turbine,Wind,9.1.8.0.0.0.0.0.0.0
+Saskatchewan,Solar,Solar,9.1.9.0.0.0.0.0.0.0
+Saskatchewan,Total electricity production from combustible fuels,Combustible fuels,9.1.11.0.0.0.0.0.0.0
+Saskatchewan,Total electricity production from biomass,Biomass,9.1.13.0.0.0.0.0.0.0
+Saskatchewan,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,9.1.12.0.0.0.0.0.0.0
+Alberta,Hydraulic turbine,Hydro,10.1.2.0.0.0.0.0.0.0
+Alberta,Nuclear steam turbine,Nuclear,10.1.4.0.0.0.0.0.0.0
+Alberta,Wind power turbine,Wind,10.1.8.0.0.0.0.0.0.0
+Alberta,Solar,Solar,10.1.9.0.0.0.0.0.0.0
+Alberta,Total electricity production from combustible fuels,Combustible fuels,10.1.11.0.0.0.0.0.0.0
+Alberta,Total electricity production from biomass,Biomass,10.1.13.0.0.0.0.0.0.0
+Alberta,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,10.1.12.0.0.0.0.0.0.0
+British Columbia,Hydraulic turbine,Hydro,11.1.2.0.0.0.0.0.0.0
+British Columbia,Nuclear steam turbine,Nuclear,11.1.4.0.0.0.0.0.0.0
+British Columbia,Wind power turbine,Wind,11.1.8.0.0.0.0.0.0.0
+British Columbia,Solar,Solar,11.1.9.0.0.0.0.0.0.0
+British Columbia,Total electricity production from combustible fuels,Combustible fuels,11.1.11.0.0.0.0.0.0.0
+British Columbia,Total electricity production from biomass,Biomass,11.1.13.0.0.0.0.0.0.0
+British Columbia,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,11.1.12.0.0.0.0.0.0.0

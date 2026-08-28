@@ -1,0 +1,64 @@
+province,technology,first_month,last_month,observations,non_null_values
+Alberta,Biomass,2016-01-01,2025-12-01,120,72
+Alberta,Combustible fuels,2016-01-01,2025-12-01,120,120
+Alberta,Hydro,2016-01-01,2025-12-01,120,120
+Alberta,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Alberta,Solar,2016-01-01,2025-12-01,120,120
+Alberta,Wind,2016-01-01,2025-12-01,120,120
+British Columbia,Biomass,2016-01-01,2025-12-01,120,72
+British Columbia,Combustible fuels,2016-01-01,2025-12-01,120,120
+British Columbia,Hydro,2016-01-01,2025-12-01,120,120
+British Columbia,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+British Columbia,Solar,2016-01-01,2025-12-01,120,120
+British Columbia,Wind,2016-01-01,2025-12-01,120,120
+Manitoba,Biomass,2016-01-01,2025-12-01,120,72
+Manitoba,Combustible fuels,2016-01-01,2025-12-01,120,120
+Manitoba,Hydro,2016-01-01,2025-12-01,120,120
+Manitoba,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Manitoba,Solar,2016-01-01,2025-12-01,120,120
+Manitoba,Wind,2016-01-01,2025-12-01,120,120
+New Brunswick,Biomass,2016-01-01,2025-12-01,120,72
+New Brunswick,Combustible fuels,2016-01-01,2025-12-01,120,120
+New Brunswick,Hydro,2016-01-01,2025-12-01,120,120
+New Brunswick,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+New Brunswick,Nuclear,2016-01-01,2025-12-01,120,120
+New Brunswick,Solar,2016-01-01,2025-12-01,120,120
+New Brunswick,Wind,2016-01-01,2025-12-01,120,120
+Newfoundland and Labrador,Biomass,2016-01-01,2025-12-01,120,72
+Newfoundland and Labrador,Combustible fuels,2016-01-01,2025-12-01,120,120
+Newfoundland and Labrador,Hydro,2016-01-01,2025-12-01,120,120
+Newfoundland and Labrador,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Newfoundland and Labrador,Solar,2016-01-01,2025-12-01,120,120
+Newfoundland and Labrador,Wind,2016-01-01,2025-12-01,120,120
+Nova Scotia,Biomass,2016-01-01,2025-12-01,120,72
+Nova Scotia,Combustible fuels,2016-01-01,2025-12-01,120,120
+Nova Scotia,Hydro,2016-01-01,2025-12-01,120,120
+Nova Scotia,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Nova Scotia,Solar,2016-01-01,2025-12-01,120,120
+Nova Scotia,Wind,2016-01-01,2025-12-01,120,120
+Ontario,Biomass,2016-01-01,2025-12-01,120,72
+Ontario,Combustible fuels,2016-01-01,2025-12-01,120,120
+Ontario,Hydro,2016-01-01,2025-12-01,120,120
+Ontario,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Ontario,Nuclear,2016-01-01,2025-12-01,120,120
+Ontario,Solar,2016-01-01,2025-12-01,120,120
+Ontario,Wind,2016-01-01,2025-12-01,120,120
+Prince Edward Island,Biomass,2016-01-01,2025-12-01,120,72
+Prince Edward Island,Combustible fuels,2016-01-01,2025-12-01,120,120
+Prince Edward Island,Hydro,2016-01-01,2025-12-01,120,120
+Prince Edward Island,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Prince Edward Island,Solar,2016-01-01,2025-12-01,120,120
+Prince Edward Island,Wind,2016-01-01,2025-12-01,120,120
+Quebec,Biomass,2016-01-01,2025-12-01,120,72
+Quebec,Combustible fuels,2016-01-01,2025-12-01,120,120
+Quebec,Hydro,2016-01-01,2025-12-01,120,120
+Quebec,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Quebec,Nuclear,2016-01-01,2025-12-01,120,0
+Quebec,Solar,2016-01-01,2025-12-01,120,120
+Quebec,Wind,2016-01-01,2025-12-01,120,120
+Saskatchewan,Biomass,2016-01-01,2025-12-01,120,72
+Saskatchewan,Combustible fuels,2016-01-01,2025-12-01,120,120
+Saskatchewan,Hydro,2016-01-01,2025-12-01,120,120
+Saskatchewan,Non-renewable combustibles,2016-01-01,2025-12-01,120,72
+Saskatchewan,Solar,2016-01-01,2025-12-01,120,120
+Saskatchewan,Wind,2016-01-01,2025-12-01,120,120

@@ -1,0 +1,64 @@
+province,generation_type,technology,coordinate,vector_id,frequency_code,series_scalar_factor_code,decimals,series_title,member_uom_code
+Newfoundland and Labrador,Hydraulic turbine,Hydro,2.1.2.0.0.0.0.0.0.0,44174696,6,0,0,Newfoundland and Labrador;Total all classes of electricity producer;Hydraulic turbine,210
+Newfoundland and Labrador,Wind power turbine,Wind,2.1.8.0.0.0.0.0.0.0,54257822,6,0,0,Newfoundland and Labrador;Total all classes of electricity producer;Wind power turbine,210
+Prince Edward Island,Total electricity production from combustible fuels,Combustible fuels,3.1.11.0.0.0.0.0.0.0,1059484838,6,0,0,Prince Edward Island;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Prince Edward Island,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,3.1.12.0.0.0.0.0.0.0,1146006336,6,0,0,Prince Edward Island;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Prince Edward Island,Total electricity production from biomass,Biomass,3.1.13.0.0.0.0.0.0.0,1146006378,6,0,0,Prince Edward Island;Total all classes of electricity producer;Total electricity production from biomass,210
+Prince Edward Island,Hydraulic turbine,Hydro,3.1.2.0.0.0.0.0.0.0,1059484874,6,0,0,Prince Edward Island;Total all classes of electricity producer;Hydraulic turbine,210
+Prince Edward Island,Wind power turbine,Wind,3.1.8.0.0.0.0.0.0.0,44174714,6,0,0,Prince Edward Island;Total all classes of electricity producer;Wind power turbine,210
+Prince Edward Island,Solar,Solar,3.1.9.0.0.0.0.0.0.0,1059484911,6,0,0,Prince Edward Island;Total all classes of electricity producer;Solar,210
+Nova Scotia,Hydraulic turbine,Hydro,4.1.2.0.0.0.0.0.0.0,44174721,6,0,0,Nova Scotia;Total all classes of electricity producer;Hydraulic turbine,210
+Nova Scotia,Wind power turbine,Wind,4.1.8.0.0.0.0.0.0.0,44174725,6,0,0,Nova Scotia;Total all classes of electricity producer;Wind power turbine,210
+New Brunswick,Hydraulic turbine,Hydro,5.1.2.0.0.0.0.0.0.0,44174736,6,0,0,New Brunswick;Total all classes of electricity producer;Hydraulic turbine,210
+New Brunswick,Nuclear steam turbine,Nuclear,5.1.4.0.0.0.0.0.0.0,44174738,6,0,0,New Brunswick;Total all classes of electricity producer;Nuclear steam turbine,210
+New Brunswick,Wind power turbine,Wind,5.1.8.0.0.0.0.0.0.0,53845222,6,0,0,New Brunswick;Total all classes of electricity producer;Wind power turbine,210
+New Brunswick,Solar,Solar,5.1.9.0.0.0.0.0.0.0,1059484917,6,0,0,New Brunswick;Total all classes of electricity producer;Solar,210
+Quebec,Total electricity production from combustible fuels,Combustible fuels,6.1.11.0.0.0.0.0.0.0,1059484847,6,0,0,Quebec;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Quebec,Total electricity production from biomass,Biomass,6.1.13.0.0.0.0.0.0.0,1146006387,6,0,0,Quebec;Total all classes of electricity producer;Total electricity production from biomass,210
+Quebec,Hydraulic turbine,Hydro,6.1.2.0.0.0.0.0.0.0,44174752,6,0,0,Quebec;Total all classes of electricity producer;Hydraulic turbine,210
+Quebec,Nuclear steam turbine,Nuclear,6.1.4.0.0.0.0.0.0.0,44174754,6,0,0,Quebec;Total all classes of electricity producer;Nuclear steam turbine,210
+Quebec,Wind power turbine,Wind,6.1.8.0.0.0.0.0.0.0,44174757,6,0,0,Quebec;Total all classes of electricity producer;Wind power turbine,210
+Ontario,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,7.1.12.0.0.0.0.0.0.0,1146006348,6,0,0,Ontario;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Ontario,Hydraulic turbine,Hydro,7.1.2.0.0.0.0.0.0.0,44174770,6,0,0,Ontario;Total all classes of electricity producer;Hydraulic turbine,210
+Ontario,Nuclear steam turbine,Nuclear,7.1.4.0.0.0.0.0.0.0,44174772,6,0,0,Ontario;Total all classes of electricity producer;Nuclear steam turbine,210
+Ontario,Wind power turbine,Wind,7.1.8.0.0.0.0.0.0.0,44174775,6,0,0,Ontario;Total all classes of electricity producer;Wind power turbine,210
+Manitoba,Hydraulic turbine,Hydro,8.1.2.0.0.0.0.0.0.0,44174789,6,0,0,Manitoba;Total all classes of electricity producer;Hydraulic turbine,210
+Manitoba,Wind power turbine,Wind,8.1.8.0.0.0.0.0.0.0,53845224,6,0,0,Manitoba;Total all classes of electricity producer;Wind power turbine,210
+Saskatchewan,Hydraulic turbine,Hydro,9.1.2.0.0.0.0.0.0.0,44174802,6,0,0,Saskatchewan;Total all classes of electricity producer;Hydraulic turbine,210
+Ontario,Solar,Solar,7.1.9.0.0.0.0.0.0.0,54259610,6,0,0,Ontario;Total all classes of electricity producer;Solar,210
+Newfoundland and Labrador,Total electricity production from combustible fuels,Combustible fuels,2.1.11.0.0.0.0.0.0.0,1059484835,6,0,0,Newfoundland and Labrador;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Nova Scotia,Total electricity production from combustible fuels,Combustible fuels,4.1.11.0.0.0.0.0.0.0,1059484841,6,0,0,Nova Scotia;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+New Brunswick,Total electricity production from combustible fuels,Combustible fuels,5.1.11.0.0.0.0.0.0.0,1059484844,6,0,0,New Brunswick;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Ontario,Total electricity production from combustible fuels,Combustible fuels,7.1.11.0.0.0.0.0.0.0,1059484850,6,0,0,Ontario;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Manitoba,Total electricity production from combustible fuels,Combustible fuels,8.1.11.0.0.0.0.0.0.0,1059484853,6,0,0,Manitoba;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Newfoundland and Labrador,Solar,Solar,2.1.9.0.0.0.0.0.0.0,1059484908,6,0,0,Newfoundland and Labrador;Total all classes of electricity producer;Solar,210
+Nova Scotia,Solar,Solar,4.1.9.0.0.0.0.0.0.0,1059484914,6,0,0,Nova Scotia;Total all classes of electricity producer;Solar,210
+Quebec,Solar,Solar,6.1.9.0.0.0.0.0.0.0,1059484920,6,0,0,Quebec;Total all classes of electricity producer;Solar,210
+Manitoba,Solar,Solar,8.1.9.0.0.0.0.0.0.0,1061444188,6,0,0,Manitoba;Total all classes of electricity producer;Solar,210
+Newfoundland and Labrador,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,2.1.12.0.0.0.0.0.0.0,1146006333,6,0,0,Newfoundland and Labrador;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Nova Scotia,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,4.1.12.0.0.0.0.0.0.0,1146006339,6,0,0,Nova Scotia;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+New Brunswick,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,5.1.12.0.0.0.0.0.0.0,1146006342,6,0,0,New Brunswick;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Quebec,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,6.1.12.0.0.0.0.0.0.0,1146006345,6,0,0,Quebec;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Manitoba,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,8.1.12.0.0.0.0.0.0.0,1146006351,6,0,0,Manitoba;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Newfoundland and Labrador,Total electricity production from biomass,Biomass,2.1.13.0.0.0.0.0.0.0,1146006375,6,0,0,Newfoundland and Labrador;Total all classes of electricity producer;Total electricity production from biomass,210
+Nova Scotia,Total electricity production from biomass,Biomass,4.1.13.0.0.0.0.0.0.0,1146006381,6,0,0,Nova Scotia;Total all classes of electricity producer;Total electricity production from biomass,210
+New Brunswick,Total electricity production from biomass,Biomass,5.1.13.0.0.0.0.0.0.0,1146006384,6,0,0,New Brunswick;Total all classes of electricity producer;Total electricity production from biomass,210
+Ontario,Total electricity production from biomass,Biomass,7.1.13.0.0.0.0.0.0.0,1146006390,6,0,0,Ontario;Total all classes of electricity producer;Total electricity production from biomass,210
+Manitoba,Total electricity production from biomass,Biomass,8.1.13.0.0.0.0.0.0.0,1146006393,6,0,0,Manitoba;Total all classes of electricity producer;Total electricity production from biomass,210
+Alberta,Total electricity production from combustible fuels,Combustible fuels,10.1.11.0.0.0.0.0.0.0,1059484859,6,0,0,Alberta;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Alberta,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,10.1.12.0.0.0.0.0.0.0,1146006357,6,0,0,Alberta;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Alberta,Total electricity production from biomass,Biomass,10.1.13.0.0.0.0.0.0.0,1146006399,6,0,0,Alberta;Total all classes of electricity producer;Total electricity production from biomass,210
+Alberta,Hydraulic turbine,Hydro,10.1.2.0.0.0.0.0.0.0,44174631,6,0,0,Alberta;Total all classes of electricity producer;Hydraulic turbine,210
+Alberta,Wind power turbine,Wind,10.1.8.0.0.0.0.0.0.0,44174635,6,0,0,Alberta;Total all classes of electricity producer;Wind power turbine,210
+Alberta,Solar,Solar,10.1.9.0.0.0.0.0.0.0,1059484927,6,0,0,Alberta;Total all classes of electricity producer;Solar,210
+British Columbia,Total electricity production from combustible fuels,Combustible fuels,11.1.11.0.0.0.0.0.0.0,1059484862,6,0,0,British Columbia;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+British Columbia,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,11.1.12.0.0.0.0.0.0.0,1146006360,6,0,0,British Columbia;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+British Columbia,Total electricity production from biomass,Biomass,11.1.13.0.0.0.0.0.0.0,1146006402,6,0,0,British Columbia;Total all classes of electricity producer;Total electricity production from biomass,210
+British Columbia,Hydraulic turbine,Hydro,11.1.2.0.0.0.0.0.0.0,44174647,6,0,0,British Columbia;Total all classes of electricity producer;Hydraulic turbine,210
+British Columbia,Wind power turbine,Wind,11.1.8.0.0.0.0.0.0.0,1059484899,6,0,0,British Columbia;Total all classes of electricity producer;Wind power turbine,210
+British Columbia,Solar,Solar,11.1.9.0.0.0.0.0.0.0,1059484930,6,0,0,British Columbia;Total all classes of electricity producer;Solar,210
+Saskatchewan,Total electricity production from combustible fuels,Combustible fuels,9.1.11.0.0.0.0.0.0.0,1059484856,6,0,0,Saskatchewan;Total all classes of electricity producer;Total electricity production from combustible fuels,210
+Saskatchewan,Total electricity production from non-renewable combustible fuels,Non-renewable combustibles,9.1.12.0.0.0.0.0.0.0,1146006354,6,0,0,Saskatchewan;Total all classes of electricity producer;Total electricity production from non-renewable combustible fuels,210
+Saskatchewan,Total electricity production from biomass,Biomass,9.1.13.0.0.0.0.0.0.0,1146006396,6,0,0,Saskatchewan;Total all classes of electricity producer;Total electricity production from biomass,210
+Saskatchewan,Wind power turbine,Wind,9.1.8.0.0.0.0.0.0.0,44174806,6,0,0,Saskatchewan;Total all classes of electricity producer;Wind power turbine,210
+Saskatchewan,Solar,Solar,9.1.9.0.0.0.0.0.0.0,1059484924,6,0,0,Saskatchewan;Total all classes of electricity producer;Solar,210

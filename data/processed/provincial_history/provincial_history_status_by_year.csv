@@ -1,0 +1,631 @@
+province,technology,year,status_code,months
+Alberta,Biomass,2016,1,12
+Alberta,Biomass,2017,1,12
+Alberta,Biomass,2018,1,12
+Alberta,Biomass,2019,1,12
+Alberta,Biomass,2020,0,12
+Alberta,Biomass,2021,0,12
+Alberta,Biomass,2022,0,12
+Alberta,Biomass,2023,0,12
+Alberta,Biomass,2024,0,12
+Alberta,Biomass,2025,0,12
+Alberta,Combustible fuels,2016,0,12
+Alberta,Combustible fuels,2017,0,12
+Alberta,Combustible fuels,2018,0,12
+Alberta,Combustible fuels,2019,0,12
+Alberta,Combustible fuels,2020,0,12
+Alberta,Combustible fuels,2021,0,12
+Alberta,Combustible fuels,2022,0,12
+Alberta,Combustible fuels,2023,0,12
+Alberta,Combustible fuels,2024,0,12
+Alberta,Combustible fuels,2025,0,12
+Alberta,Hydro,2016,0,12
+Alberta,Hydro,2017,0,12
+Alberta,Hydro,2018,0,12
+Alberta,Hydro,2019,0,12
+Alberta,Hydro,2020,0,12
+Alberta,Hydro,2021,0,12
+Alberta,Hydro,2022,0,12
+Alberta,Hydro,2023,0,12
+Alberta,Hydro,2024,0,12
+Alberta,Hydro,2025,0,12
+Alberta,Non-renewable combustibles,2016,1,12
+Alberta,Non-renewable combustibles,2017,1,12
+Alberta,Non-renewable combustibles,2018,1,12
+Alberta,Non-renewable combustibles,2019,1,12
+Alberta,Non-renewable combustibles,2020,0,12
+Alberta,Non-renewable combustibles,2021,0,12
+Alberta,Non-renewable combustibles,2022,0,12
+Alberta,Non-renewable combustibles,2023,0,12
+Alberta,Non-renewable combustibles,2024,0,12
+Alberta,Non-renewable combustibles,2025,0,12
+Alberta,Solar,2016,0,12
+Alberta,Solar,2017,0,12
+Alberta,Solar,2018,0,12
+Alberta,Solar,2019,0,12
+Alberta,Solar,2020,0,12
+Alberta,Solar,2021,0,12
+Alberta,Solar,2022,0,12
+Alberta,Solar,2023,0,12
+Alberta,Solar,2024,0,12
+Alberta,Solar,2025,0,12
+Alberta,Wind,2016,0,12
+Alberta,Wind,2017,0,12
+Alberta,Wind,2018,0,12
+Alberta,Wind,2019,0,12
+Alberta,Wind,2020,0,12
+Alberta,Wind,2021,0,12
+Alberta,Wind,2022,0,12
+Alberta,Wind,2023,0,12
+Alberta,Wind,2024,0,12
+Alberta,Wind,2025,0,12
+British Columbia,Biomass,2016,1,12
+British Columbia,Biomass,2017,1,12
+British Columbia,Biomass,2018,1,12
+British Columbia,Biomass,2019,1,12
+British Columbia,Biomass,2020,0,12
+British Columbia,Biomass,2021,0,12
+British Columbia,Biomass,2022,0,12
+British Columbia,Biomass,2023,0,12
+British Columbia,Biomass,2024,0,12
+British Columbia,Biomass,2025,0,12
+British Columbia,Combustible fuels,2016,0,12
+British Columbia,Combustible fuels,2017,0,12
+British Columbia,Combustible fuels,2018,0,12
+British Columbia,Combustible fuels,2019,0,12
+British Columbia,Combustible fuels,2020,0,12
+British Columbia,Combustible fuels,2021,0,12
+British Columbia,Combustible fuels,2022,0,12
+British Columbia,Combustible fuels,2023,0,12
+British Columbia,Combustible fuels,2024,0,12
+British Columbia,Combustible fuels,2025,0,12
+British Columbia,Hydro,2016,0,12
+British Columbia,Hydro,2017,0,12
+British Columbia,Hydro,2018,0,12
+British Columbia,Hydro,2019,0,12
+British Columbia,Hydro,2020,0,12
+British Columbia,Hydro,2021,0,12
+British Columbia,Hydro,2022,0,12
+British Columbia,Hydro,2023,0,12
+British Columbia,Hydro,2024,0,12
+British Columbia,Hydro,2025,0,12
+British Columbia,Non-renewable combustibles,2016,1,12
+British Columbia,Non-renewable combustibles,2017,1,12
+British Columbia,Non-renewable combustibles,2018,1,12
+British Columbia,Non-renewable combustibles,2019,1,12
+British Columbia,Non-renewable combustibles,2020,0,12
+British Columbia,Non-renewable combustibles,2021,0,12
+British Columbia,Non-renewable combustibles,2022,0,12
+British Columbia,Non-renewable combustibles,2023,0,12
+British Columbia,Non-renewable combustibles,2024,0,12
+British Columbia,Non-renewable combustibles,2025,0,12
+British Columbia,Solar,2016,0,12
+British Columbia,Solar,2017,0,12
+British Columbia,Solar,2018,0,12
+British Columbia,Solar,2019,0,12
+British Columbia,Solar,2020,0,12
+British Columbia,Solar,2021,0,12
+British Columbia,Solar,2022,0,12
+British Columbia,Solar,2023,0,12
+British Columbia,Solar,2024,0,12
+British Columbia,Solar,2025,0,12
+British Columbia,Wind,2016,0,12
+British Columbia,Wind,2017,0,12
+British Columbia,Wind,2018,0,12
+British Columbia,Wind,2019,0,12
+British Columbia,Wind,2020,0,12
+British Columbia,Wind,2021,0,12
+British Columbia,Wind,2022,0,12
+British Columbia,Wind,2023,0,12
+British Columbia,Wind,2024,0,12
+British Columbia,Wind,2025,0,12
+Manitoba,Biomass,2016,1,12
+Manitoba,Biomass,2017,1,12
+Manitoba,Biomass,2018,1,12
+Manitoba,Biomass,2019,1,12
+Manitoba,Biomass,2020,0,12
+Manitoba,Biomass,2021,0,12
+Manitoba,Biomass,2022,0,12
+Manitoba,Biomass,2023,0,12
+Manitoba,Biomass,2024,0,12
+Manitoba,Biomass,2025,0,12
+Manitoba,Combustible fuels,2016,0,12
+Manitoba,Combustible fuels,2017,0,12
+Manitoba,Combustible fuels,2018,0,12
+Manitoba,Combustible fuels,2019,0,12
+Manitoba,Combustible fuels,2020,0,12
+Manitoba,Combustible fuels,2021,0,12
+Manitoba,Combustible fuels,2022,0,12
+Manitoba,Combustible fuels,2023,0,12
+Manitoba,Combustible fuels,2024,0,12
+Manitoba,Combustible fuels,2025,0,12
+Manitoba,Hydro,2016,0,12
+Manitoba,Hydro,2017,0,12
+Manitoba,Hydro,2018,0,12
+Manitoba,Hydro,2019,0,12
+Manitoba,Hydro,2020,0,12
+Manitoba,Hydro,2021,0,12
+Manitoba,Hydro,2022,0,12
+Manitoba,Hydro,2023,0,12
+Manitoba,Hydro,2024,0,12
+Manitoba,Hydro,2025,0,12
+Manitoba,Non-renewable combustibles,2016,1,12
+Manitoba,Non-renewable combustibles,2017,1,12
+Manitoba,Non-renewable combustibles,2018,1,12
+Manitoba,Non-renewable combustibles,2019,1,12
+Manitoba,Non-renewable combustibles,2020,0,12
+Manitoba,Non-renewable combustibles,2021,0,12
+Manitoba,Non-renewable combustibles,2022,0,12
+Manitoba,Non-renewable combustibles,2023,0,12
+Manitoba,Non-renewable combustibles,2024,0,12
+Manitoba,Non-renewable combustibles,2025,0,12
+Manitoba,Solar,2016,0,12
+Manitoba,Solar,2017,0,12
+Manitoba,Solar,2018,0,12
+Manitoba,Solar,2019,0,12
+Manitoba,Solar,2020,0,12
+Manitoba,Solar,2021,0,12
+Manitoba,Solar,2022,0,12
+Manitoba,Solar,2023,0,12
+Manitoba,Solar,2024,0,12
+Manitoba,Solar,2025,0,12
+Manitoba,Wind,2016,0,12
+Manitoba,Wind,2017,0,12
+Manitoba,Wind,2018,0,12
+Manitoba,Wind,2019,0,12
+Manitoba,Wind,2020,0,12
+Manitoba,Wind,2021,0,12
+Manitoba,Wind,2022,0,12
+Manitoba,Wind,2023,0,12
+Manitoba,Wind,2024,0,12
+Manitoba,Wind,2025,0,12
+New Brunswick,Biomass,2016,1,12
+New Brunswick,Biomass,2017,1,12
+New Brunswick,Biomass,2018,1,12
+New Brunswick,Biomass,2019,1,12
+New Brunswick,Biomass,2020,0,12
+New Brunswick,Biomass,2021,0,12
+New Brunswick,Biomass,2022,0,12
+New Brunswick,Biomass,2023,0,12
+New Brunswick,Biomass,2024,0,12
+New Brunswick,Biomass,2025,0,12
+New Brunswick,Combustible fuels,2016,0,12
+New Brunswick,Combustible fuels,2017,0,12
+New Brunswick,Combustible fuels,2018,0,12
+New Brunswick,Combustible fuels,2019,0,12
+New Brunswick,Combustible fuels,2020,0,12
+New Brunswick,Combustible fuels,2021,0,12
+New Brunswick,Combustible fuels,2022,0,12
+New Brunswick,Combustible fuels,2023,0,12
+New Brunswick,Combustible fuels,2024,0,12
+New Brunswick,Combustible fuels,2025,0,12
+New Brunswick,Hydro,2016,0,12
+New Brunswick,Hydro,2017,0,12
+New Brunswick,Hydro,2018,0,12
+New Brunswick,Hydro,2019,0,12
+New Brunswick,Hydro,2020,0,12
+New Brunswick,Hydro,2021,0,12
+New Brunswick,Hydro,2022,0,12
+New Brunswick,Hydro,2023,0,12
+New Brunswick,Hydro,2024,0,12
+New Brunswick,Hydro,2025,0,12
+New Brunswick,Non-renewable combustibles,2016,1,12
+New Brunswick,Non-renewable combustibles,2017,1,12
+New Brunswick,Non-renewable combustibles,2018,1,12
+New Brunswick,Non-renewable combustibles,2019,1,12
+New Brunswick,Non-renewable combustibles,2020,0,12
+New Brunswick,Non-renewable combustibles,2021,0,12
+New Brunswick,Non-renewable combustibles,2022,0,12
+New Brunswick,Non-renewable combustibles,2023,0,12
+New Brunswick,Non-renewable combustibles,2024,0,12
+New Brunswick,Non-renewable combustibles,2025,0,12
+New Brunswick,Nuclear,2016,0,12
+New Brunswick,Nuclear,2017,0,12
+New Brunswick,Nuclear,2018,0,12
+New Brunswick,Nuclear,2019,0,12
+New Brunswick,Nuclear,2020,0,12
+New Brunswick,Nuclear,2021,0,12
+New Brunswick,Nuclear,2022,0,12
+New Brunswick,Nuclear,2023,0,12
+New Brunswick,Nuclear,2024,0,12
+New Brunswick,Nuclear,2025,0,12
+New Brunswick,Solar,2016,0,12
+New Brunswick,Solar,2017,0,12
+New Brunswick,Solar,2018,0,12
+New Brunswick,Solar,2019,0,12
+New Brunswick,Solar,2020,0,12
+New Brunswick,Solar,2021,0,12
+New Brunswick,Solar,2022,0,12
+New Brunswick,Solar,2023,0,12
+New Brunswick,Solar,2024,0,12
+New Brunswick,Solar,2025,0,12
+New Brunswick,Wind,2016,0,12
+New Brunswick,Wind,2017,0,12
+New Brunswick,Wind,2018,0,12
+New Brunswick,Wind,2019,0,12
+New Brunswick,Wind,2020,0,12
+New Brunswick,Wind,2021,0,12
+New Brunswick,Wind,2022,0,12
+New Brunswick,Wind,2023,0,12
+New Brunswick,Wind,2024,0,12
+New Brunswick,Wind,2025,0,12
+Newfoundland and Labrador,Biomass,2016,1,12
+Newfoundland and Labrador,Biomass,2017,1,12
+Newfoundland and Labrador,Biomass,2018,1,12
+Newfoundland and Labrador,Biomass,2019,1,12
+Newfoundland and Labrador,Biomass,2020,0,12
+Newfoundland and Labrador,Biomass,2021,0,12
+Newfoundland and Labrador,Biomass,2022,0,12
+Newfoundland and Labrador,Biomass,2023,0,12
+Newfoundland and Labrador,Biomass,2024,0,12
+Newfoundland and Labrador,Biomass,2025,0,12
+Newfoundland and Labrador,Combustible fuels,2016,0,12
+Newfoundland and Labrador,Combustible fuels,2017,0,12
+Newfoundland and Labrador,Combustible fuels,2018,0,12
+Newfoundland and Labrador,Combustible fuels,2019,0,12
+Newfoundland and Labrador,Combustible fuels,2020,0,12
+Newfoundland and Labrador,Combustible fuels,2021,0,12
+Newfoundland and Labrador,Combustible fuels,2022,0,12
+Newfoundland and Labrador,Combustible fuels,2023,0,12
+Newfoundland and Labrador,Combustible fuels,2024,0,12
+Newfoundland and Labrador,Combustible fuels,2025,0,12
+Newfoundland and Labrador,Hydro,2016,0,12
+Newfoundland and Labrador,Hydro,2017,0,12
+Newfoundland and Labrador,Hydro,2018,0,12
+Newfoundland and Labrador,Hydro,2019,0,12
+Newfoundland and Labrador,Hydro,2020,0,12
+Newfoundland and Labrador,Hydro,2021,0,12
+Newfoundland and Labrador,Hydro,2022,0,12
+Newfoundland and Labrador,Hydro,2023,0,12
+Newfoundland and Labrador,Hydro,2024,0,12
+Newfoundland and Labrador,Hydro,2025,0,12
+Newfoundland and Labrador,Non-renewable combustibles,2016,1,12
+Newfoundland and Labrador,Non-renewable combustibles,2017,1,12
+Newfoundland and Labrador,Non-renewable combustibles,2018,1,12
+Newfoundland and Labrador,Non-renewable combustibles,2019,1,12
+Newfoundland and Labrador,Non-renewable combustibles,2020,0,12
+Newfoundland and Labrador,Non-renewable combustibles,2021,0,12
+Newfoundland and Labrador,Non-renewable combustibles,2022,0,12
+Newfoundland and Labrador,Non-renewable combustibles,2023,0,12
+Newfoundland and Labrador,Non-renewable combustibles,2024,0,12
+Newfoundland and Labrador,Non-renewable combustibles,2025,0,12
+Newfoundland and Labrador,Solar,2016,0,12
+Newfoundland and Labrador,Solar,2017,0,12
+Newfoundland and Labrador,Solar,2018,0,12
+Newfoundland and Labrador,Solar,2019,0,12
+Newfoundland and Labrador,Solar,2020,0,12
+Newfoundland and Labrador,Solar,2021,0,12
+Newfoundland and Labrador,Solar,2022,0,12
+Newfoundland and Labrador,Solar,2023,0,12
+Newfoundland and Labrador,Solar,2024,0,12
+Newfoundland and Labrador,Solar,2025,0,12
+Newfoundland and Labrador,Wind,2016,0,12
+Newfoundland and Labrador,Wind,2017,0,12
+Newfoundland and Labrador,Wind,2018,0,12
+Newfoundland and Labrador,Wind,2019,0,12
+Newfoundland and Labrador,Wind,2020,0,12
+Newfoundland and Labrador,Wind,2021,0,12
+Newfoundland and Labrador,Wind,2022,0,12
+Newfoundland and Labrador,Wind,2023,0,12
+Newfoundland and Labrador,Wind,2024,0,12
+Newfoundland and Labrador,Wind,2025,0,12
+Nova Scotia,Biomass,2016,1,12
+Nova Scotia,Biomass,2017,1,12
+Nova Scotia,Biomass,2018,1,12
+Nova Scotia,Biomass,2019,1,12
+Nova Scotia,Biomass,2020,0,12
+Nova Scotia,Biomass,2021,0,12
+Nova Scotia,Biomass,2022,0,12
+Nova Scotia,Biomass,2023,0,12
+Nova Scotia,Biomass,2024,0,12
+Nova Scotia,Biomass,2025,0,12
+Nova Scotia,Combustible fuels,2016,0,12
+Nova Scotia,Combustible fuels,2017,0,12
+Nova Scotia,Combustible fuels,2018,0,12
+Nova Scotia,Combustible fuels,2019,0,12
+Nova Scotia,Combustible fuels,2020,0,12
+Nova Scotia,Combustible fuels,2021,0,12
+Nova Scotia,Combustible fuels,2022,0,12
+Nova Scotia,Combustible fuels,2023,0,12
+Nova Scotia,Combustible fuels,2024,0,12
+Nova Scotia,Combustible fuels,2025,0,12
+Nova Scotia,Hydro,2016,0,12
+Nova Scotia,Hydro,2017,0,12
+Nova Scotia,Hydro,2018,0,12
+Nova Scotia,Hydro,2019,0,12
+Nova Scotia,Hydro,2020,0,12
+Nova Scotia,Hydro,2021,0,12
+Nova Scotia,Hydro,2022,0,12
+Nova Scotia,Hydro,2023,0,12
+Nova Scotia,Hydro,2024,0,12
+Nova Scotia,Hydro,2025,0,12
+Nova Scotia,Non-renewable combustibles,2016,1,12
+Nova Scotia,Non-renewable combustibles,2017,1,12
+Nova Scotia,Non-renewable combustibles,2018,1,12
+Nova Scotia,Non-renewable combustibles,2019,1,12
+Nova Scotia,Non-renewable combustibles,2020,0,12
+Nova Scotia,Non-renewable combustibles,2021,0,12
+Nova Scotia,Non-renewable combustibles,2022,0,12
+Nova Scotia,Non-renewable combustibles,2023,0,12
+Nova Scotia,Non-renewable combustibles,2024,0,12
+Nova Scotia,Non-renewable combustibles,2025,0,12
+Nova Scotia,Solar,2016,0,12
+Nova Scotia,Solar,2017,0,12
+Nova Scotia,Solar,2018,0,12
+Nova Scotia,Solar,2019,0,12
+Nova Scotia,Solar,2020,0,12
+Nova Scotia,Solar,2021,0,12
+Nova Scotia,Solar,2022,0,12
+Nova Scotia,Solar,2023,0,12
+Nova Scotia,Solar,2024,0,12
+Nova Scotia,Solar,2025,0,12
+Nova Scotia,Wind,2016,0,12
+Nova Scotia,Wind,2017,0,12
+Nova Scotia,Wind,2018,0,12
+Nova Scotia,Wind,2019,0,12
+Nova Scotia,Wind,2020,0,12
+Nova Scotia,Wind,2021,0,12
+Nova Scotia,Wind,2022,0,12
+Nova Scotia,Wind,2023,0,12
+Nova Scotia,Wind,2024,0,12
+Nova Scotia,Wind,2025,0,12
+Ontario,Biomass,2016,1,12
+Ontario,Biomass,2017,1,12
+Ontario,Biomass,2018,1,12
+Ontario,Biomass,2019,1,12
+Ontario,Biomass,2020,0,12
+Ontario,Biomass,2021,0,12
+Ontario,Biomass,2022,0,12
+Ontario,Biomass,2023,0,12
+Ontario,Biomass,2024,0,12
+Ontario,Biomass,2025,0,12
+Ontario,Combustible fuels,2016,0,12
+Ontario,Combustible fuels,2017,0,12
+Ontario,Combustible fuels,2018,0,12
+Ontario,Combustible fuels,2019,0,12
+Ontario,Combustible fuels,2020,0,12
+Ontario,Combustible fuels,2021,0,12
+Ontario,Combustible fuels,2022,0,12
+Ontario,Combustible fuels,2023,0,12
+Ontario,Combustible fuels,2024,0,12
+Ontario,Combustible fuels,2025,0,12
+Ontario,Hydro,2016,0,12
+Ontario,Hydro,2017,0,12
+Ontario,Hydro,2018,0,12
+Ontario,Hydro,2019,0,12
+Ontario,Hydro,2020,0,12
+Ontario,Hydro,2021,0,12
+Ontario,Hydro,2022,0,12
+Ontario,Hydro,2023,0,12
+Ontario,Hydro,2024,0,12
+Ontario,Hydro,2025,0,12
+Ontario,Non-renewable combustibles,2016,1,12
+Ontario,Non-renewable combustibles,2017,1,12
+Ontario,Non-renewable combustibles,2018,1,12
+Ontario,Non-renewable combustibles,2019,1,12
+Ontario,Non-renewable combustibles,2020,0,12
+Ontario,Non-renewable combustibles,2021,0,12
+Ontario,Non-renewable combustibles,2022,0,12
+Ontario,Non-renewable combustibles,2023,0,12
+Ontario,Non-renewable combustibles,2024,0,12
+Ontario,Non-renewable combustibles,2025,0,12
+Ontario,Nuclear,2016,0,12
+Ontario,Nuclear,2017,0,12
+Ontario,Nuclear,2018,0,12
+Ontario,Nuclear,2019,0,12
+Ontario,Nuclear,2020,0,12
+Ontario,Nuclear,2021,0,12
+Ontario,Nuclear,2022,0,12
+Ontario,Nuclear,2023,0,12
+Ontario,Nuclear,2024,0,12
+Ontario,Nuclear,2025,0,12
+Ontario,Solar,2016,0,12
+Ontario,Solar,2017,0,12
+Ontario,Solar,2018,0,12
+Ontario,Solar,2019,0,12
+Ontario,Solar,2020,0,12
+Ontario,Solar,2021,0,12
+Ontario,Solar,2022,0,12
+Ontario,Solar,2023,0,12
+Ontario,Solar,2024,0,12
+Ontario,Solar,2025,0,12
+Ontario,Wind,2016,0,12
+Ontario,Wind,2017,0,12
+Ontario,Wind,2018,0,12
+Ontario,Wind,2019,0,12
+Ontario,Wind,2020,0,12
+Ontario,Wind,2021,0,12
+Ontario,Wind,2022,0,12
+Ontario,Wind,2023,0,12
+Ontario,Wind,2024,0,12
+Ontario,Wind,2025,0,12
+Prince Edward Island,Biomass,2016,1,12
+Prince Edward Island,Biomass,2017,1,12
+Prince Edward Island,Biomass,2018,1,12
+Prince Edward Island,Biomass,2019,1,12
+Prince Edward Island,Biomass,2020,0,12
+Prince Edward Island,Biomass,2021,0,12
+Prince Edward Island,Biomass,2022,0,12
+Prince Edward Island,Biomass,2023,0,12
+Prince Edward Island,Biomass,2024,0,12
+Prince Edward Island,Biomass,2025,0,12
+Prince Edward Island,Combustible fuels,2016,0,12
+Prince Edward Island,Combustible fuels,2017,0,12
+Prince Edward Island,Combustible fuels,2018,0,12
+Prince Edward Island,Combustible fuels,2019,0,12
+Prince Edward Island,Combustible fuels,2020,0,12
+Prince Edward Island,Combustible fuels,2021,0,12
+Prince Edward Island,Combustible fuels,2022,0,12
+Prince Edward Island,Combustible fuels,2023,0,12
+Prince Edward Island,Combustible fuels,2024,0,12
+Prince Edward Island,Combustible fuels,2025,0,12
+Prince Edward Island,Hydro,2016,0,12
+Prince Edward Island,Hydro,2017,0,12
+Prince Edward Island,Hydro,2018,0,12
+Prince Edward Island,Hydro,2019,0,12
+Prince Edward Island,Hydro,2020,0,12
+Prince Edward Island,Hydro,2021,0,12
+Prince Edward Island,Hydro,2022,0,12
+Prince Edward Island,Hydro,2023,0,12
+Prince Edward Island,Hydro,2024,0,12
+Prince Edward Island,Hydro,2025,0,12
+Prince Edward Island,Non-renewable combustibles,2016,1,12
+Prince Edward Island,Non-renewable combustibles,2017,1,12
+Prince Edward Island,Non-renewable combustibles,2018,1,12
+Prince Edward Island,Non-renewable combustibles,2019,1,12
+Prince Edward Island,Non-renewable combustibles,2020,0,12
+Prince Edward Island,Non-renewable combustibles,2021,0,12
+Prince Edward Island,Non-renewable combustibles,2022,0,12
+Prince Edward Island,Non-renewable combustibles,2023,0,12
+Prince Edward Island,Non-renewable combustibles,2024,0,12
+Prince Edward Island,Non-renewable combustibles,2025,0,12
+Prince Edward Island,Solar,2016,0,12
+Prince Edward Island,Solar,2017,0,12
+Prince Edward Island,Solar,2018,0,12
+Prince Edward Island,Solar,2019,0,12
+Prince Edward Island,Solar,2020,0,12
+Prince Edward Island,Solar,2021,0,12
+Prince Edward Island,Solar,2022,0,12
+Prince Edward Island,Solar,2023,0,12
+Prince Edward Island,Solar,2024,0,12
+Prince Edward Island,Solar,2025,0,12
+Prince Edward Island,Wind,2016,0,12
+Prince Edward Island,Wind,2017,0,12
+Prince Edward Island,Wind,2018,0,12
+Prince Edward Island,Wind,2019,0,12
+Prince Edward Island,Wind,2020,0,12
+Prince Edward Island,Wind,2021,0,12
+Prince Edward Island,Wind,2022,0,12
+Prince Edward Island,Wind,2023,0,12
+Prince Edward Island,Wind,2024,0,12
+Prince Edward Island,Wind,2025,0,12
+Quebec,Biomass,2016,1,12
+Quebec,Biomass,2017,1,12
+Quebec,Biomass,2018,1,12
+Quebec,Biomass,2019,1,12
+Quebec,Biomass,2020,0,12
+Quebec,Biomass,2021,0,12
+Quebec,Biomass,2022,0,12
+Quebec,Biomass,2023,0,12
+Quebec,Biomass,2024,0,12
+Quebec,Biomass,2025,0,12
+Quebec,Combustible fuels,2016,0,12
+Quebec,Combustible fuels,2017,0,12
+Quebec,Combustible fuels,2018,0,12
+Quebec,Combustible fuels,2019,0,12
+Quebec,Combustible fuels,2020,0,12
+Quebec,Combustible fuels,2021,0,12
+Quebec,Combustible fuels,2022,0,12
+Quebec,Combustible fuels,2023,0,12
+Quebec,Combustible fuels,2024,0,12
+Quebec,Combustible fuels,2025,0,12
+Quebec,Hydro,2016,0,12
+Quebec,Hydro,2017,0,12
+Quebec,Hydro,2018,0,12
+Quebec,Hydro,2019,0,12
+Quebec,Hydro,2020,0,12
+Quebec,Hydro,2021,0,12
+Quebec,Hydro,2022,0,12
+Quebec,Hydro,2023,0,12
+Quebec,Hydro,2024,0,12
+Quebec,Hydro,2025,0,12
+Quebec,Non-renewable combustibles,2016,1,12
+Quebec,Non-renewable combustibles,2017,1,12
+Quebec,Non-renewable combustibles,2018,1,12
+Quebec,Non-renewable combustibles,2019,1,12
+Quebec,Non-renewable combustibles,2020,0,12
+Quebec,Non-renewable combustibles,2021,0,12
+Quebec,Non-renewable combustibles,2022,0,12
+Quebec,Non-renewable combustibles,2023,0,12
+Quebec,Non-renewable combustibles,2024,0,12
+Quebec,Non-renewable combustibles,2025,0,12
+Quebec,Nuclear,2016,1,12
+Quebec,Nuclear,2017,1,12
+Quebec,Nuclear,2018,1,12
+Quebec,Nuclear,2019,1,12
+Quebec,Nuclear,2020,1,12
+Quebec,Nuclear,2021,1,12
+Quebec,Nuclear,2022,1,12
+Quebec,Nuclear,2023,1,12
+Quebec,Nuclear,2024,1,12
+Quebec,Nuclear,2025,1,12
+Quebec,Solar,2016,0,12
+Quebec,Solar,2017,0,12
+Quebec,Solar,2018,0,12
+Quebec,Solar,2019,0,12
+Quebec,Solar,2020,0,12
+Quebec,Solar,2021,0,12
+Quebec,Solar,2022,0,12
+Quebec,Solar,2023,0,12
+Quebec,Solar,2024,0,12
+Quebec,Solar,2025,0,12
+Quebec,Wind,2016,0,12
+Quebec,Wind,2017,0,12
+Quebec,Wind,2018,0,12
+Quebec,Wind,2019,0,12
+Quebec,Wind,2020,0,12
+Quebec,Wind,2021,0,12
+Quebec,Wind,2022,0,12
+Quebec,Wind,2023,0,12
+Quebec,Wind,2024,0,12
+Quebec,Wind,2025,0,12
+Saskatchewan,Biomass,2016,1,12
+Saskatchewan,Biomass,2017,1,12
+Saskatchewan,Biomass,2018,1,12
+Saskatchewan,Biomass,2019,1,12
+Saskatchewan,Biomass,2020,0,12
+Saskatchewan,Biomass,2021,0,12
+Saskatchewan,Biomass,2022,0,12
+Saskatchewan,Biomass,2023,0,12
+Saskatchewan,Biomass,2024,0,12
+Saskatchewan,Biomass,2025,0,12
+Saskatchewan,Combustible fuels,2016,0,12
+Saskatchewan,Combustible fuels,2017,0,12
+Saskatchewan,Combustible fuels,2018,0,12
+Saskatchewan,Combustible fuels,2019,0,12
+Saskatchewan,Combustible fuels,2020,0,12
+Saskatchewan,Combustible fuels,2021,0,12
+Saskatchewan,Combustible fuels,2022,0,12
+Saskatchewan,Combustible fuels,2023,0,12
+Saskatchewan,Combustible fuels,2024,0,12
+Saskatchewan,Combustible fuels,2025,0,12
+Saskatchewan,Hydro,2016,0,12
+Saskatchewan,Hydro,2017,0,12
+Saskatchewan,Hydro,2018,0,12
+Saskatchewan,Hydro,2019,0,12
+Saskatchewan,Hydro,2020,0,12
+Saskatchewan,Hydro,2021,0,12
+Saskatchewan,Hydro,2022,0,12
+Saskatchewan,Hydro,2023,0,12
+Saskatchewan,Hydro,2024,0,12
+Saskatchewan,Hydro,2025,0,12
+Saskatchewan,Non-renewable combustibles,2016,1,12
+Saskatchewan,Non-renewable combustibles,2017,1,12
+Saskatchewan,Non-renewable combustibles,2018,1,12
+Saskatchewan,Non-renewable combustibles,2019,1,12
+Saskatchewan,Non-renewable combustibles,2020,0,12
+Saskatchewan,Non-renewable combustibles,2021,0,12
+Saskatchewan,Non-renewable combustibles,2022,0,12
+Saskatchewan,Non-renewable combustibles,2023,0,12
+Saskatchewan,Non-renewable combustibles,2024,0,12
+Saskatchewan,Non-renewable combustibles,2025,0,12
+Saskatchewan,Solar,2016,0,12
+Saskatchewan,Solar,2017,0,12
+Saskatchewan,Solar,2018,0,12
+Saskatchewan,Solar,2019,0,12
+Saskatchewan,Solar,2020,0,12
+Saskatchewan,Solar,2021,0,12
+Saskatchewan,Solar,2022,0,12
+Saskatchewan,Solar,2023,0,12
+Saskatchewan,Solar,2024,0,12
+Saskatchewan,Solar,2025,0,12
+Saskatchewan,Wind,2016,0,12
+Saskatchewan,Wind,2017,0,12
+Saskatchewan,Wind,2018,0,12
+Saskatchewan,Wind,2019,0,12
+Saskatchewan,Wind,2020,0,12
+Saskatchewan,Wind,2021,0,12
+Saskatchewan,Wind,2022,0,12
+Saskatchewan,Wind,2023,0,12
+Saskatchewan,Wind,2024,0,12
+Saskatchewan,Wind,2025,0,12

@@ -1,0 +1,544 @@
+{
+  "responseStatusCode": 0,
+  "productId": "25100015",
+  "cansimId": "127-0002",
+  "cubeTitleEn": "Electric power generation, monthly generation by type of electricity",
+  "cubeTitleFr": "Production de l'énergie électrique, production mensuelle selon le type d'électricité",
+  "cubeStartDate": "2008-01-01",
+  "cubeEndDate": "2026-05-01",
+  "frequencyCode": 6,
+  "nbSeriesCube": 458,
+  "nbDatapointsCube": 75402,
+  "releaseTime": "2026-07-31T08:30",
+  "archiveStatusCode": "2",
+  "archiveStatusEn": "CURRENT - a cube available to the public and that is current",
+  "archiveStatusFr": "ACTIF - un cube qui est disponible au public et qui est toujours mise a jour",
+  "subjectCode": [
+    "2502",
+    "2504"
+  ],
+  "surveyCode": [
+    "2151"
+  ],
+  "dimension": [
+    {
+      "dimensionPositionId": 1,
+      "dimensionNameEn": "Geography",
+      "dimensionNameFr": "Géographie",
+      "hasUom": false,
+      "member": [
+        {
+          "memberId": 1,
+          "parentMemberId": null,
+          "memberNameEn": "Canada",
+          "memberNameFr": "Canada",
+          "classificationCode": "11124",
+          "classificationTypeCode": "1",
+          "geoLevel": 0,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 2,
+          "parentMemberId": 1,
+          "memberNameEn": "Newfoundland and Labrador",
+          "memberNameFr": "Terre-Neuve-et-Labrador",
+          "classificationCode": "10",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 3,
+          "parentMemberId": 1,
+          "memberNameEn": "Prince Edward Island",
+          "memberNameFr": "Île-du-Prince-Édouard",
+          "classificationCode": "11",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 4,
+          "parentMemberId": 1,
+          "memberNameEn": "Nova Scotia",
+          "memberNameFr": "Nouvelle-Écosse",
+          "classificationCode": "12",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 5,
+          "parentMemberId": 1,
+          "memberNameEn": "New Brunswick",
+          "memberNameFr": "Nouveau-Brunswick",
+          "classificationCode": "13",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 6,
+          "parentMemberId": 1,
+          "memberNameEn": "Quebec",
+          "memberNameFr": "Québec",
+          "classificationCode": "24",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 7,
+          "parentMemberId": 1,
+          "memberNameEn": "Ontario",
+          "memberNameFr": "Ontario",
+          "classificationCode": "35",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 8,
+          "parentMemberId": 1,
+          "memberNameEn": "Manitoba",
+          "memberNameFr": "Manitoba",
+          "classificationCode": "46",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 9,
+          "parentMemberId": 1,
+          "memberNameEn": "Saskatchewan",
+          "memberNameFr": "Saskatchewan",
+          "classificationCode": "47",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 10,
+          "parentMemberId": 1,
+          "memberNameEn": "Alberta",
+          "memberNameFr": "Alberta",
+          "classificationCode": "48",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 11,
+          "parentMemberId": 1,
+          "memberNameEn": "British Columbia",
+          "memberNameFr": "Colombie-Britannique",
+          "classificationCode": "59",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 12,
+          "parentMemberId": 1,
+          "memberNameEn": "Yukon",
+          "memberNameFr": "Yukon",
+          "classificationCode": "60",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 13,
+          "parentMemberId": 1,
+          "memberNameEn": "Northwest Territories",
+          "memberNameFr": "Territoires du Nord-Ouest",
+          "classificationCode": "61",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 14,
+          "parentMemberId": 1,
+          "memberNameEn": "Nunavut",
+          "memberNameFr": "Nunavut",
+          "classificationCode": "62",
+          "classificationTypeCode": "1",
+          "geoLevel": 2,
+          "vintage": 2016,
+          "terminated": 0,
+          "memberUomCode": null
+        }
+      ]
+    },
+    {
+      "dimensionPositionId": 2,
+      "dimensionNameEn": "Class of electricity producer",
+      "dimensionNameFr": "Classe de producteur d'électricité",
+      "hasUom": false,
+      "member": [
+        {
+          "memberId": 1,
+          "parentMemberId": null,
+          "memberNameEn": "Total all classes of electricity producer",
+          "memberNameFr": "Total, toutes classes de producteur d'électricité",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 2,
+          "parentMemberId": 1,
+          "memberNameEn": "Electricity producers, electric utilities",
+          "memberNameFr": "Producteurs d'électricité, services d'électricité",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": null
+        },
+        {
+          "memberId": 3,
+          "parentMemberId": 1,
+          "memberNameEn": "Electricity producers, industries",
+          "memberNameFr": "Producteurs d'électricité, industries",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": null
+        }
+      ]
+    },
+    {
+      "dimensionPositionId": 3,
+      "dimensionNameEn": "Type of electricity generation",
+      "dimensionNameFr": "Type de production d'électricité",
+      "hasUom": true,
+      "member": [
+        {
+          "memberId": 1,
+          "parentMemberId": null,
+          "memberNameEn": "Total all types of electricity generation",
+          "memberNameFr": "Total, tous les genres de production d'électricité",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 2,
+          "parentMemberId": 1,
+          "memberNameEn": "Hydraulic turbine",
+          "memberNameFr": "Turbine à hydraulique",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 3,
+          "parentMemberId": 1,
+          "memberNameEn": "Conventional steam turbine",
+          "memberNameFr": "Turbine à vapeur-classique",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 4,
+          "parentMemberId": 1,
+          "memberNameEn": "Nuclear steam turbine",
+          "memberNameFr": "Turbine à vapeur-nucléaire",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 5,
+          "parentMemberId": 1,
+          "memberNameEn": "Internal combustion turbine",
+          "memberNameFr": "Turbine à combustion interne",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 6,
+          "parentMemberId": 1,
+          "memberNameEn": "Combustion turbine",
+          "memberNameFr": "Turbine de combustion",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 11,
+          "parentMemberId": 1,
+          "memberNameEn": "Total electricity production from combustible fuels",
+          "memberNameFr": "Production totale d'électricité provenant de combustible",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 12,
+          "parentMemberId": 11,
+          "memberNameEn": "Total electricity production from non-renewable combustible fuels",
+          "memberNameFr": "Production totale d’électricité provenant de combustibles non-renouvelables",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 13,
+          "parentMemberId": 11,
+          "memberNameEn": "Total electricity production from biomass",
+          "memberNameFr": "Production totale d’électricité provenant de la biomasse",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 7,
+          "parentMemberId": 1,
+          "memberNameEn": "Tidal power turbine",
+          "memberNameFr": "Turbine marémotrice",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 8,
+          "parentMemberId": 1,
+          "memberNameEn": "Wind power turbine",
+          "memberNameFr": "Turbine éolienne",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 9,
+          "parentMemberId": 1,
+          "memberNameEn": "Solar",
+          "memberNameFr": "Solaire",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        },
+        {
+          "memberId": 10,
+          "parentMemberId": 1,
+          "memberNameEn": "Other types of electricity generation",
+          "memberNameFr": "Autres types de production électrique",
+          "classificationCode": null,
+          "classificationTypeCode": null,
+          "geoLevel": null,
+          "vintage": null,
+          "terminated": 0,
+          "memberUomCode": 210
+        }
+      ]
+    }
+  ],
+  "footnote": [
+    {
+      "footnoteId": 1,
+      "footnotesEn": "For monthly data prior to January 2008, please see table 25-10-0001-01 (terminated). For current monthly data on Electric power receipts and deliveries, see table 25-10-0016-01.",
+      "footnotesFr": "Pour consulter les données mensuelles antérieures à janvier 2008, veuillez vous reporter au tableau 25-10-0001-01 (terminé). Pour consulter les données mensuelles actuelles sur les réceptions et livraisons de l'énergie électrique, reportez-vous au tableau 25-10-0016.",
+      "link": {
+        "footnoteId": 1,
+        "dimensionPositionId": 0,
+        "memberId": 0
+      }
+    },
+    {
+      "footnoteId": 13,
+      "footnotesEn": "Beginning in January 2016 reference month, the target population for the Monthly Electricity Supply and Disposition Survey has been expanded from 400 to 1,200 companies approximately to improve coverage of renewable energy in Canada, particularly wind and solar power. As a result of this change, users will have to use caution when comparing data for historical purposes. For wind power, significant changes occurred in British Columbia, Alberta, Ontario, Quebec and Prince Edward Island. For solar power, significant changes occurred in Ontario.",
+      "footnotesFr": "À partir du mois de référence de janvier 2016, la population cible de l'Enquête mensuelle sur l'approvisionnement et l'écoulement d'électricité a été augmentée, passant de 400 à 1 200 compagnies approximativement, afin d'améliorer la couverture de l'énergie renouvelable au Canada, particulièrement l'énergie éolienne et solaire. Par conséquent, les utilisateurs de données devraient faire preuve de prudence en faisant des comparaisons historiques. Les données sur la production d'électricité éolienne ont connu des changements importants en Colombie-Britannique, en Alberta, en Ontario, au Québec et à l'Île-du-Prince-Édouard. Les données sur la production d'électricité solaire ont connu des changements importants en Ontario.",
+      "link": {
+        "footnoteId": 13,
+        "dimensionPositionId": 0,
+        "memberId": 0
+      }
+    },
+    {
+      "footnoteId": 2,
+      "footnotesEn": "A utility is an organization that, as its prime purpose, generates, transmits and/or distributes electric energy for sale. It can be private or public (provincial or municipal).",
+      "footnotesFr": "Un fournisseur de services est une organisation qui a pour but principal la production, la transmission ou la distribution d'énergie électrique pour la vente. Il peut être privé ou public (provincial ou municipal).",
+      "link": {
+        "footnoteId": 2,
+        "dimensionPositionId": 2,
+        "memberId": 2
+      }
+    },
+    {
+      "footnoteId": 3,
+      "footnotesEn": "Establishments that are not part of the electric power generation, transmission and distribution industry (North American Industry Classification System (NAICS): 2211).",
+      "footnotesFr": "Les établissements qui produisent de l'électricité tout en ne faisant pas partie de l'industrie de la production, de la transmission et de la distribution d'électricité (Système de classification des industries de l'Amérique du Nord (SCIAN) : 2211).",
+      "link": {
+        "footnoteId": 3,
+        "dimensionPositionId": 2,
+        "memberId": 3
+      }
+    },
+    {
+      "footnoteId": 4,
+      "footnotesEn": "Electric power generated from a plant in which the turbine generators are driven by flowing water. Prior to January 2008, hydro included wind and tidal generation. From January 2008 on, wind and tidal generation are reported separately.",
+      "footnotesFr": "Production d'électricité provenant d'une centrale où les turbines génératrices sont actionnées par l'écoulement de l'eau. Avant le 1er janvier 2008, l'hydro comprenait les centrales éoliennes et marémotrices de production. À partir du 1er janvier 2008, les centrales éoliennes et marémotrices de production sont présentées séparément.",
+      "link": {
+        "footnoteId": 4,
+        "dimensionPositionId": 3,
+        "memberId": 2
+      }
+    },
+    {
+      "footnoteId": 5,
+      "footnotesEn": "A power plant in which the prime mover is a steam turbine. The steam used to drive the turbine is produced in a boiler where fossil fuels or other combustible materials are burned. From January 2016 on, this generation is reported as part of combustible fuel generation.",
+      "footnotesFr": "Une centrale dont le moteur principal est une turbine à vapeur. La vapeur utilisée pour actionner la turbine est produite par une chaudière où des combustibles fossiles ou d'autres matières combustibles sont brûlés. À partir du 1er janvier 2016, ce type de production est inclus avec les données de production à partir de combustibles.",
+      "link": {
+        "footnoteId": 5,
+        "dimensionPositionId": 3,
+        "memberId": 3
+      }
+    },
+    {
+      "footnoteId": 6,
+      "footnotesEn": "Electricity generated at an electric power plant whose turbines are driven by steam generated in a reactor by heat from the fission of nuclear fuel.",
+      "footnotesFr": "L'électricité produite dans une centrale électrique où la vapeur actionnant les turbines provient de la chaleur dégagée par fission nucléaire dans un réacteur.",
+      "link": {
+        "footnoteId": 6,
+        "dimensionPositionId": 3,
+        "memberId": 4
+      }
+    },
+    {
+      "footnoteId": 7,
+      "footnotesEn": "A power plant in which the prime mover is an internal combustion turbine. Electric power is generated by converting energy obtained by the rapid burning of a fuel-air mixture into mechanical energy. From January 2016 on, this generation is reported as part of combustible fuel generation.",
+      "footnotesFr": "Une centrale dont le moteur principal est une turbine à combustion interne. L'énergie électrique est produite par la combustion rapide d'un mélange d'air et de combustible pour le convertir en énergie mécanique. À partir du 1er janvier 2016, ce type de production est inclus avec les données de production à partir de combustibles.",
+      "link": {
+        "footnoteId": 7,
+        "dimensionPositionId": 3,
+        "memberId": 5
+      }
+    },
+    {
+      "footnoteId": 8,
+      "footnotesEn": "A power plant in which the prime mover is a combustion turbine. Electric power is generated by converting energy obtained by burning fuel into mechanical energy. From January 2016 on, this generation is reported as part of combustible fuel generation.",
+      "footnotesFr": "Une centrale dont le moteur principal est une turbine à combustion. L'énergie électrique est produite par la combustion d'un combustible pour le convertir en énergie mécanique. À partir du 1er janvier 2016, ce type de production est inclus avec les données de production à partir de combustibles.",
+      "link": {
+        "footnoteId": 8,
+        "dimensionPositionId": 3,
+        "memberId": 6
+      }
+    },
+    {
+      "footnoteId": 12,
+      "footnotesEn": "Total combustible generation includes non-renewable combustible fuels (coal, natural gas, petroleum and other non-renewable combustible fuels) and biomass (wood, spent pulping liquor, methane, municipal waste, other waste and other types of biomass). \n",
+      "footnotesFr": "La production totale d'énergie à partir de combustibles comprend l'énergie produite à partir de combustibles non renouvelables (charbon, gaz naturel, pétrole et les autres combustibles non renouvelables) et biomasse (bois, lessive de pâte épuisée, gaz d'enfouissement, déchets municipaux résidus, autres résidus et autres sources de biomasse).\n",
+      "link": {
+        "footnoteId": 12,
+        "dimensionPositionId": 3,
+        "memberId": 11
+      }
+    },
+    {
+      "footnoteId": 9,
+      "footnotesEn": "Electric power generated from a plant in which the turbine generators are driven by moving water from tidal flows.",
+      "footnotesFr": "Électricité produite par une centrale dont les turbogénérateurs sont entraînés par le mouvement de l'eau des marées.",
+      "link": {
+        "footnoteId": 9,
+        "dimensionPositionId": 3,
+        "memberId": 7
+      }
+    },
+    {
+      "footnoteId": 10,
+      "footnotesEn": "A power plant in which the prime mover is a wind turbine. Electric power is generated by the conversion of wind power into mechanical energy.",
+      "footnotesFr": "Une centrale dont le moteur principal est une turbine éolienne. L'énergie électrique est produite en convertissant l'énergie éolienne en énergie mécanique.",
+      "link": {
+        "footnoteId": 10,
+        "dimensionPositionId": 3,
+        "memberId": 8
+      }
+    },
+    {
+      "footnoteId": 11,
+      "footnotesEn": "Electricity created by converting solar radiation through photovoltaic processes or transforming solar radiation captured by concentrating thermal systems.",
+      "footnotesFr": "Électricité produite par la conversion du rayonnement solaire par des procédés photovoltaïques ou par la transformation du rayonnement solaire capté par des systèmes thermiques à concentration.",
+      "link": {
+        "footnoteId": 11,
+        "dimensionPositionId": 3,
+        "memberId": 9
+      }
+    }
+  ],
+  "correctionFootnote": [],
+  "correction": [],
+  "issueDate": "2018-06-27"
+}
