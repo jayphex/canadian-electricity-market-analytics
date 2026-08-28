@@ -1,4 +1,5 @@
 from pathlib import Path
+import textwrap
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -82,6 +83,34 @@ def apply_editorial_style(fig, ax) -> None:
     ax.set_axisbelow(True)
 
 
+def add_header(fig, title: str, subtitle: str) -> None:
+    wrapped_title = textwrap.fill(title, width=58)
+    wrapped_subtitle = textwrap.fill(subtitle, width=95)
+    fig.text(
+        0.105,
+        0.94,
+        wrapped_title,
+        ha="left",
+        va="top",
+        fontsize=20,
+        fontweight="bold",
+        color=TEXT,
+        linespacing=1.1,
+    )
+    title_lines = wrapped_title.count("\n") + 1
+    subtitle_y = 0.865 if title_lines == 1 else 0.825
+    fig.text(
+        0.105,
+        subtitle_y,
+        wrapped_subtitle,
+        ha="left",
+        va="top",
+        fontsize=12.5,
+        color=MUTED,
+        linespacing=1.15,
+    )
+
+
 def plot_cumulative_change(change_table: pd.DataFrame) -> Path:
     ordered = change_table.sort_values("absolute_change_million_mwh")
     color_map = {
@@ -91,7 +120,7 @@ def plot_cumulative_change(change_table: pd.DataFrame) -> Path:
         "Wind + solar": WIND_SOLAR,
     }
 
-    fig, ax = plt.subplots(figsize=(11, 6.6))
+    fig, ax = plt.subplots(figsize=(11, 6.8))
     apply_editorial_style(fig, ax)
     ax.grid(axis="x", color=GRID, linewidth=0.8)
     ax.grid(axis="y", visible=False)
@@ -109,24 +138,10 @@ def plot_cumulative_change(change_table: pd.DataFrame) -> Path:
     ax.set_xlabel("Change in annual generation (million MWh)", color=MUTED, fontsize=11, labelpad=14)
     ax.set_ylabel("")
 
-    fig.text(
-        0.105,
-        0.925,
+    add_header(
+        fig,
         "Canada lost hydro and nuclear output while wind and solar expanded",
-        ha="left",
-        va="top",
-        fontsize=22,
-        fontweight="bold",
-        color=TEXT,
-    )
-    fig.text(
-        0.105,
-        0.865,
         "Change in annual electricity generation by source, 2016 to 2025",
-        ha="left",
-        va="top",
-        fontsize=13,
-        color=MUTED,
     )
 
     for bar, value in zip(bars, ordered["absolute_change_million_mwh"]):
@@ -139,7 +154,7 @@ def plot_cumulative_change(change_table: pd.DataFrame) -> Path:
     fig.text(0.105, 0.035, "Source: Statistics Canada, table 25-10-0015", fontsize=10, color=MUTED, ha="left")
     fig.text(0.895, 0.035, "CANADIAN ELECTRICITY MARKET ANALYTICS", fontsize=9, fontweight="bold", color=MUTED, ha="right")
 
-    fig.subplots_adjust(left=0.22, right=0.91, top=0.78, bottom=0.16)
+    fig.subplots_adjust(left=0.22, right=0.91, top=0.72, bottom=0.16)
     output_path = OUTPUT_DIR / "generation_change_2016_2025.svg"
     fig.savefig(output_path, format="svg", facecolor=BACKGROUND)
     plt.close(fig)
@@ -147,7 +162,7 @@ def plot_cumulative_change(change_table: pd.DataFrame) -> Path:
 
 
 def plot_annual_substitution(annual_changes: pd.DataFrame) -> Path:
-    fig, ax = plt.subplots(figsize=(11, 6.6))
+    fig, ax = plt.subplots(figsize=(11, 6.8))
     apply_editorial_style(fig, ax)
 
     years = annual_changes["year"]
@@ -166,24 +181,10 @@ def plot_annual_substitution(annual_changes: pd.DataFrame) -> Path:
     ax.set_ylabel("Year-over-year change (million MWh)", color=MUTED, fontsize=11, labelpad=12)
     ax.set_xlabel("")
 
-    fig.text(
-        0.105,
-        0.925,
+    add_header(
+        fig,
         "Hydro declines were not consistently offset by other generation",
-        ha="left",
-        va="top",
-        fontsize=22,
-        fontweight="bold",
-        color=TEXT,
-    )
-    fig.text(
-        0.105,
-        0.865,
         "Annual change in hydro versus combustible fuels, nuclear, wind and solar combined, 2017 to 2025",
-        ha="left",
-        va="top",
-        fontsize=13,
-        color=MUTED,
     )
 
     end_year = years.iloc[-1]
@@ -193,7 +194,7 @@ def plot_annual_substitution(annual_changes: pd.DataFrame) -> Path:
     fig.text(0.105, 0.035, "Source: Statistics Canada, table 25-10-0015", fontsize=10, color=MUTED, ha="left")
     fig.text(0.895, 0.035, "CANADIAN ELECTRICITY MARKET ANALYTICS", fontsize=9, fontweight="bold", color=MUTED, ha="right")
 
-    fig.subplots_adjust(left=0.12, right=0.82, top=0.78, bottom=0.15)
+    fig.subplots_adjust(left=0.12, right=0.82, top=0.72, bottom=0.15)
     output_path = OUTPUT_DIR / "hydro_vs_other_sources_annual_change.svg"
     fig.savefig(output_path, format="svg", facecolor=BACKGROUND)
     plt.close(fig)
