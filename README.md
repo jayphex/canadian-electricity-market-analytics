@@ -23,7 +23,7 @@ Implemented analysis includes:
 - Provincial electricity receipts and deliveries
 - Local generation versus electricity available for use
 - Net importer/exporter position by province
-- A focused PEI case study showing why local generation mix and total electricity supply are different concepts
+- A [PEI case study](docs/phase2_pei_wind_and_trade.md) on local wind generation, interprovincial trade, and the Hermanville/Clearspring wind farm
 
 The pipeline preserves source vector IDs, coordinates, status codes, units, and release metadata so results can be traced back to Statistics Canada.
 
@@ -40,6 +40,14 @@ Hydro and nuclear generation are lower in 2025 than in 2016, while wind and sola
 ![Annual hydro change versus other generation sources](docs/figures/hydro_vs_other_sources_annual_change.svg)
 
 The year-over-year comparison tests whether changes in combustible generation, nuclear, and wind/solar collectively offset annual hydro movements. The relationship varies materially by year, so the national data should not be interpreted as a simple one-for-one substitution pattern.
+
+### Provincial hydro generation changes, 2023–2025
+
+![Year-over-year hydro generation changes across all ten provinces](docs/figures/provincial_hydro_annual_changes_2023_2025.svg)
+
+Quebec and British Columbia drove most of the combined provincial hydro decline in 2023. Both gained hydro output in 2025, while Manitoba and Newfoundland and Labrador recorded declines.
+
+Regenerate the figure with `python -m src.analyze_generation_transition` from the repository root.
 
 ## Working approach
 

@@ -107,6 +107,41 @@ def plot_annual_substitution(annual_changes: pd.DataFrame) -> Path:
     return output_path
 
 
+
+def plot_provincial_hydro_changes() -> Path:
+    source = ROOT / "data" / "processed" / "provincial_history" / "provincial_generation_annual.csv"
+    generation = pd.read_csv(source)
+    hydro = generation.loc[generation["technology"].eq("Hydro")]
+    years = [2022, 2023, 2024, 2025]
+    annual = hydro.pivot(index="province", columns="year", values="generation").reindex(columns=years)
+    if annual.isna().any().any():
+        raise ValueError("Provincial hydro data are incomplete for 2022–2025")
+
+    changes = annual.diff(axis=1).loc[:, 2023:2025] / 1_000_000
+    changes = changes.sort_values(2023, ascending=False)
+    limit = changes.abs().max().max() * 1.12
+
+    with plt.rc_context({"svg.hashsalt": "provincial-hydro-changes", "svg.fonttype": "none"}):
+        fig, axes = plt.subplots(1, 3, figsize=(12, 5.5), sharey=True)
+        for ax, year in zip(axes, changes.columns):
+            values = changes[year]
+            colors = ["#256986" if value >= 0 else "#ae563b" for value in values]
+            ax.barh(changes.index, values, color=colors, zorder=2)
+            ax.axvline(0, color="#555555", linewidth=0.8)
+            ax.set_xlim(-limit, limit)
+            ax.set_title(f"{year} vs. {year - 1}")
+            ax.set_axisbelow(True)
+            ax.grid(axis="x", color="#e2e2e2")
+        fig.suptitle("Year-over-year change in hydro generation by province")
+        fig.supxlabel("Change in generation (million MWh)")
+        fig.tight_layout()
+
+        output_path = OUTPUT_DIR / "provincial_hydro_annual_changes_2023_2025.svg"
+        fig.savefig(output_path, bbox_inches="tight", metadata={"Date": None})
+        plt.close(fig)
+    return output_path
+
+
 def main() -> None:
     df = load_generation_data()
     endpoint_changes = build_endpoint_change_table(df)
@@ -120,6 +155,7 @@ def main() -> None:
 
     cumulative_chart = plot_cumulative_change(endpoint_changes)
     annual_chart = plot_annual_substitution(annual_changes)
+    provincial_hydro_chart = plot_provincial_hydro_changes()
 
     print("Endpoint change table")
     print(endpoint_changes.to_string(index=False))
@@ -129,6 +165,7 @@ def main() -> None:
     print(f"Saved: {annual_output}")
     print(f"Saved: {cumulative_chart}")
     print(f"Saved: {annual_chart}")
+    print(f"Saved: {provincial_hydro_chart}")
 
 
 if __name__ == "__main__":
