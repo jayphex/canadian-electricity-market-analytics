@@ -27,6 +27,19 @@ Implemented analysis includes:
 
 The pipeline preserves source vector IDs, coordinates, status codes, units, and release metadata so results can be traced back to Statistics Canada.
 
+## How provincial electricity trade changed
+
+| Province and period | Change in local generation (million MWh) | Change in net receipts (million MWh) | What drove the change in net receipts |
+| --- | ---: | ---: | --- |
+| British Columbia, 2022–2023 | −12.7 | +16.6 | Gross receipts rose by 9.4 million MWh and deliveries fell by 7.2 million MWh. |
+| Quebec, 2022–2023 | −20.2 | +15.2 | Deliveries fell by 13.2 million MWh, accounting for most of the increase. |
+| Quebec, 2023–2024 | −10.1 | +11.2 | Deliveries fell by a further 9.2 million MWh. |
+| Prince Edward Island, 2016–2025 | +0.031 | +0.250 | Gross receipts grew faster than deliveries. Net receipts accounted for 89% of the increase in electricity available for use. |
+
+Net receipts equal gross receipts minus deliveries. British Columbia increased incoming electricity and reduced outgoing deliveries during the 2023 hydro shortfall. Quebec's increase in net receipts came mostly from sending less electricity out. Over a longer period, PEI used growing net receipts to meet most of the increase in electricity available for use while local generation also grew. The periods differ because the mainland cases examine annual hydro shortfalls and the PEI case examines a decade-long change in supply.
+
+[British Columbia and Quebec analysis](docs/phase2_trade_corroboration.md) · [Prince Edward Island analysis](docs/phase2_pei_wind_and_trade.md)
+
 ## Current Phase 2 visualizations
 
 ### Generation change by source, 2016–2025
