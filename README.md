@@ -40,6 +40,8 @@ Net receipts equal gross receipts minus deliveries. British Columbia increased i
 
 [British Columbia and Quebec analysis](docs/phase2_trade_corroboration.md) · [Prince Edward Island analysis](docs/phase2_pei_wind_and_trade.md)
 
+[Additional provincial trade cases and source records](docs/phase2_additional_trade_cases.md)
+
 ## Current Phase 2 visualizations
 
 ### Generation change by source, 2016–2025
